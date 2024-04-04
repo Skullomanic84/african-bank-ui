@@ -5,7 +5,7 @@ import '../public/assets/css/style.css';
 import "react-modal-video/css/modal-video.css"
 import { useEffect, useState } from "react";
 import Preloader from '../components/elements/Preloader';
-import Script from 'next/script'; 
+ 
 
 function MyApp({ Component, pageProps }) {
     const [loading, setLoading] = useState(false);
@@ -23,10 +23,6 @@ function MyApp({ Component, pageProps }) {
     }, []);
     return (
         <>
-        <Script
-                src="https://karabo-chatbot.s3.eu-west-1.amazonaws.com/script/mvskarabo.js"
-                defer
-        />
             {!loading ? (
                 <Component {...pageProps} />
             ) : (
