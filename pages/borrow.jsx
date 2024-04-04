@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "../components/layout/Layout";
@@ -21,10 +22,10 @@ const Borrow = () => {
                   Effortless Online Banking registration
                 </h1>
                 <p className="font-md color-brand-1">
-                  Because we know you're busy, African Bank has simplified its
-                  Online Banking to be user-friendly and efficient. Our digital
-                  banking platforms are designed to save you time and money,
-                  offering free access to a variety of banking services.
+                  Because we know you&apos;re busy, African Bank has simplified
+                  its Online Banking to be user-friendly and efficient. Our
+                  digital banking platforms are designed to save you time and
+                  money, offering free access to a variety of banking services.
                 </p>
                 <p className="font-md color-brand-1 mt-20">
                   Whether you prefer navigating through our Online Banking
@@ -64,7 +65,7 @@ const Borrow = () => {
                 />
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <Calculactor /> 
+                <Calculactor />
               </div>
             </div>
           </div>
@@ -150,7 +151,7 @@ const Borrow = () => {
             <div className="row align-items-center justify-content-center">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">FAQS</h1>
-                <Accordion /> 
+                <Accordion />
               </div>
             </div>
           </div>
@@ -239,10 +240,10 @@ const Borrow = () => {
                   Unlock exclusive value-added deals
                 </h1>
                 <p className="font-md color-brand-1">
-                  Discover unbeatable value with African Bank's exclusive deals
-                  on top devices, brought to you in partnership with leading
-                  brands. Our latest deals come with bonus entertainment and
-                  education vouchers, offering you even more value for your
+                  Discover unbeatable value with African Bank&apos;s exclusive
+                  deals on top devices, brought to you in partnership with
+                  leading brands. Our latest deals come with bonus entertainment
+                  and education vouchers, offering you even more value for your
                   money.
                 </p>
                 <p className="font-md color-brand-1">
@@ -283,10 +284,10 @@ const Borrow = () => {
                 </h1>
                 <p className="font-md color-brand-1">
                   Your credit score and credit report is a crucial aspect when
-                  applying for credit. Ensure you're in the know by accessing
-                  your credit report with African Bank. Simply register with
-                  African Bank by downloading our Banking app or via Online
-                  Banking.
+                  applying for credit. Ensure you&apos;re in the know by
+                  accessing your credit report with African Bank. Simply
+                  register with African Bank by downloading our Banking app or
+                  via Online Banking.
                 </p>
                 <p className="font-md color-brand-1 mt-20">
                   This service is completely free, giving you sight of your

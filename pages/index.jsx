@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import Layout from "../components/layout/Layout";
 import Testimonial2 from "../components/slider/Testimonial2";
@@ -25,7 +26,7 @@ const Home = () => {
         <section className="section-800 pt-50 pb-40 home-loan-calculator bg-grey-60">
           <div className="container">
             <div className="row align-items-center">
-            <div className="col-xl-6 col-lg-6 col-md-6">
+              <div className="col-xl-6 col-lg-6 col-md-6">
                 <Calculactor />
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
@@ -34,7 +35,7 @@ const Home = () => {
                   src="assets\imgs\new-site\loan.png"
                   alt="iori"
                 />
-              </div> 
+              </div>
             </div>
           </div>
         </section>
@@ -210,8 +211,9 @@ const Home = () => {
                 </h1>
                 <p className="font-md color-brand-1">
                   Take a step closer to your financial goals with an African
-                  Bank investment, where you don't need much to make more. With
-                  just R500, you can access South Africa's top investment rates.
+                  Bank investment, where you don&apos;t need much to make more.
+                  With just R500, you can access South Africa&apos;s top
+                  investment rates.
                 </p>
                 <p className="font-md color-brand-1 mt-20">
                   Begin your journey to financial growth by opening an

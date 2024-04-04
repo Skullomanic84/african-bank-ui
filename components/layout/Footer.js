@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import React from 'react';
 import { FaFacebookF, FaBlog, FaLinkedinIn } from "react-icons/fa";
@@ -21,7 +22,7 @@ const Footer = () => {
                     | Registration Terms and Conditions
                   </p>
                   <p className="font-xs color-grey-500">
-                    *Banking fees are based on Solidarity's methodology of
+                    *Banking fees are based on Solidarity&apos;s methodology of
                     comparing defined baskets of transactions(12,17,25 and 30
                     transactions) across 6 biggest entry level bank accounts. In
                     this way, an average industry price was obtained.

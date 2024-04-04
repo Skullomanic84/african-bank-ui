@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 

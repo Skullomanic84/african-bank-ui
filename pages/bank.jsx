@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "../components/layout/Layout";
@@ -25,7 +26,7 @@ const Bank = () => {
                   meaningful steps toward your dreams.
                 </p>
                 <p className="font-md color-brand-1 mt-20">
-                  With flexible terms and comprehensive coverage for life's
+                  With flexible terms and comprehensive coverage for life&apos;s
                   surprises, get access to the best life has to offer with
                   African Bank today.
                 </p>
@@ -318,7 +319,9 @@ const Bank = () => {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-12 col-lg-12 col-md-12">
-                <h1 className="color-brand-1 mt-15 mb-20 text-center">FAQ'S</h1>
+                <h1 className="color-brand-1 mt-15 mb-20 text-center">
+                  FAQ&apos;S
+                </h1>
                 <Accordion2 />
               </div>
             </div>
