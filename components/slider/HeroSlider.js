@@ -1,9 +1,9 @@
 import React from 'react';
-import SwiperCore, { Autoplay, Navigation,Pagination,Fade } from "swiper";
+import SwiperCore, { Autoplay, Navigation,Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 import { SlArrowRight } from "react-icons/sl";
-SwiperCore.use([Autoplay, Navigation,Pagination,Fade]);
+SwiperCore.use([Autoplay, Navigation,Pagination]);
 
 const HeroSlider = () => {
 
@@ -34,7 +34,6 @@ const HeroSlider = () => {
             prevEl: ".swiper-button-prev-style-3",
             nextEl: ".swiper-button-next-style-3",
           }}
-          effect="fade" // Add the fade effect
           className="swiper-wrapper"
         >
           <SwiperSlide className="swiper-slide">
