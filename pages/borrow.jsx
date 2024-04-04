@@ -3,7 +3,6 @@ import Link from "next/link";
 import Head from "next/head";
 import Layout from "../components/layout/Layout";
 import Accordion from "../components/elements/Accordion";
-import { Grid, Container, Slider } from "@mui/material";
 import Calculactor from "../components/elements/calculator";
 
 const Borrow = () => {
