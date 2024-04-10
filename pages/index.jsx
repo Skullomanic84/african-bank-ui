@@ -7,6 +7,7 @@ import HeroSlider from "../components/slider/HeroSlider";
 import { SlArrowRight } from "react-icons/sl";
 import Calculactor from "../components/elements/calculator";
 import { BsChevronRight } from "react-icons/bs";
+import { IoCloudDownloadOutline } from "react-icons/io5";
 
 const Home = () => {
   const [isOpen, setOpen] = useState(false);
@@ -149,6 +150,7 @@ const Home = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     Download Now
+                    <IoCloudDownloadOutline className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -184,6 +186,7 @@ const Home = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     tell me more
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -225,6 +228,7 @@ const Home = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     apply now
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>

@@ -8951,6 +8951,11 @@ footer.footer-4 {
   }
 }
 
+.right-icon {
+  margin-left: 1rem;
+  font-size: 21px;
+}
+
 @media (max-width: 1550px) {
   .bg-faqs {
     background-size: 190px;
