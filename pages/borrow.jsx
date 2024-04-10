@@ -4,6 +4,8 @@ import Head from "next/head";
 import Layout from "../components/layout/Layout";
 import Accordion from "../components/elements/Accordion";
 import Calculactor from "../components/elements/calculator";
+import { BsChevronRight } from "react-icons/bs";
+import { IoCloudDownloadOutline } from "react-icons/io5";
 
 const Borrow = () => {
   return (
@@ -39,6 +41,7 @@ const Borrow = () => {
                 <div className="mt-50 mb-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     apply now
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -99,6 +102,7 @@ const Borrow = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     apply now
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -210,11 +214,13 @@ const Borrow = () => {
                   <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                   <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                 </div>
@@ -253,11 +259,13 @@ const Borrow = () => {
                   <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                   <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                 </div>
@@ -299,11 +307,13 @@ const Borrow = () => {
                   <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                   <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                 </div>
@@ -332,6 +342,7 @@ const Borrow = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     Download Now
+                    <IoCloudDownloadOutline className="right-icon"/>
                   </Link>
                 </div>
               </div>

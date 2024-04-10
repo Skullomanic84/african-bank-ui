@@ -3,6 +3,8 @@ import Link from "next/link";
 import Head from "next/head";
 import Layout from "../components/layout/Layout";
 import Accordion2 from "../components/elements/Accordion2";
+import { BsChevronRight } from "react-icons/bs";
+import { IoCloudDownloadOutline } from "react-icons/io5";
 
 const Bank = () => {
   return (
@@ -33,6 +35,7 @@ const Bank = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     apply now
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -59,6 +62,7 @@ const Bank = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     Download Now
+                    <IoCloudDownloadOutline className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -97,6 +101,7 @@ const Bank = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     Open Account
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -149,11 +154,13 @@ const Bank = () => {
                   <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                   <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                 </div>
@@ -205,11 +212,13 @@ const Bank = () => {
                   <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                   <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                 </div>
@@ -296,11 +305,13 @@ const Bank = () => {
                   <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                   <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                 </div>
