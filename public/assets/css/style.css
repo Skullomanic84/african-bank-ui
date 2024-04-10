@@ -10157,4 +10157,9 @@ footer.footer-4 {
     font-size: 55px;
     line-height: 60px;
     }
+  .header .main-header .header-left .header-right {
+    width: 46%;
+    text-align: right;
+}
+
 }
