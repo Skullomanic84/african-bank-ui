@@ -6,6 +6,7 @@ import Link from "next/link";
 import HeroSlider from "../components/slider/HeroSlider";
 import { SlArrowRight } from "react-icons/sl";
 import Calculactor from "../components/elements/calculator";
+import { BsChevronRight } from "react-icons/bs";
 
 const Home = () => {
   const [isOpen, setOpen] = useState(false);
@@ -52,6 +53,8 @@ const Home = () => {
                 <div className="d-none d-sm-inline-block pr-5">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     QUOTE ME
+
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
