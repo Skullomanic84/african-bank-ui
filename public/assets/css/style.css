@@ -10114,7 +10114,7 @@ footer.footer-4 {
 
     }
 
-/* @media only screen and (min-width: 1270px) and (max-device-width: 1290px) {
+@media only screen and (max-width: 1290px) {
   .sub-menu {
     opacity: 1;
     width: 100%;
@@ -10167,4 +10167,4 @@ footer.footer-4 {
     text-align: right;
 }
 
-} */
+}
