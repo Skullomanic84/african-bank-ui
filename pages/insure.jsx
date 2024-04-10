@@ -3,6 +3,7 @@ import Link from "next/link";
 import Head from "next/head";
 import Layout from "../components/layout/Layout";
 import Accordion from "../components/elements/Accordion";
+import { BsChevronRight } from "react-icons/bs";
 
 const Insure = () => {
   return (
@@ -26,6 +27,7 @@ const Insure = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     TELL ME MORE
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -316,6 +318,7 @@ const Insure = () => {
                 <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       open account
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
               </div>
@@ -446,6 +449,7 @@ const Insure = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     tell me more
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -510,6 +514,7 @@ const Insure = () => {
                 <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
               </div>
@@ -547,6 +552,7 @@ const Insure = () => {
                 <div className="mt-50 text-start">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       submit your claim
+                      <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
               </div>

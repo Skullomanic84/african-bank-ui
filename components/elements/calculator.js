@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from "next/link";
+import { BsChevronRight } from "react-icons/bs";
 
 const Calculactor = () => {
   const marks = {
@@ -100,6 +101,7 @@ const Calculactor = () => {
           <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     apply Now
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
         

@@ -3,6 +3,8 @@ import Link from "next/link";
 import Head from "next/head";
 import Layout from "../components/layout/Layout";
 import Accordion from "../components/elements/Accordion";
+import { BsChevronRight } from "react-icons/bs";
+import { IoCloudDownloadOutline } from "react-icons/io5";
 
 const Bank = () => {
   return (
@@ -34,6 +36,7 @@ const Bank = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     tell me more
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -106,6 +109,7 @@ const Bank = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     Open Now
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -144,6 +148,7 @@ const Bank = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up " href="#">
                     open now
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -179,6 +184,7 @@ const Bank = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     open now
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -331,6 +337,7 @@ const Bank = () => {
                 <div className="mt-20 text-start">
                   <Link className="btn btn-brand-1 hover-up " href="#">
                     OPEN NOW
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
                 <h4 className="color-brand-1 mt-20">Savings Pocket</h4>
@@ -426,6 +433,7 @@ const Bank = () => {
                 <div className="mt-20 text-start">
                   <Link className="btn btn-brand-1 hover-up " href="#">
                     OPEN NOW
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -675,7 +683,8 @@ const Bank = () => {
                 </div>
                 <div className="mt-10 text-start">
                   <Link className="btn btn-brand-1 hover-up " href="#">
-                    download now
+                    register now
+                    <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
               </div>
@@ -702,6 +711,7 @@ const Bank = () => {
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     Download Now
+                    <IoCloudDownloadOutline className="right-icon"/>
                   </Link>
                 </div>
               </div>
