@@ -10014,3 +10014,147 @@ footer.footer-4 {
 }
 
 /*# sourceMappingURL=style.css.map */
+    @media only screen and (min-width: 960px) {
+        /* styles for browsers larger than 960px; */
+    }
+    @media only screen and (min-width: 1440px) {
+        /* styles for browsers larger than 1440px; */
+    }
+    @media only screen and (min-width: 2000px) {
+       
+    }
+    @media only screen and (max-width: 480px) {
+       .hero-col-1 {
+        display: none !important;
+       }
+
+       .sub-menu {
+        opacity: 1;
+        width: 100%;
+        height: 155px;
+        position: relative;
+        bottom: 220px;
+        z-index: 100;
+        display: flex;
+        align-items: center;
+      }
+      .box-info-banner11 h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+      }
+
+      .box-info-banner11 {
+      margin-top: -211px;
+      }
+
+      .swiper-group-1.right-pagination .swiper-pagination {
+  bottom: 50px;
+  left: unset;
+  display: flex;
+  flex-direction: column;
+  top: 15.9%;
+  left: 9px;
+  width: unset;
+}
+      
+
+    }
+    @media only screen and (max-width: 768px) {
+      .hero-col-1 {
+        display: none !important;
+       }
+
+    .sub-menu {
+    opacity: 1;
+    width: 100%;
+    height: 155px;
+    position: relative;
+    bottom: 220px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    }
+
+    
+    .box-info-banner11 h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    }
+
+    .box-info-banner11 {
+    margin-top: -211px;
+    }
+
+     .box-info-banner11 h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    }
+
+    .box-info-banner11 {
+    margin-top: -211px;
+    }
+
+  .swiper-group-1.right-pagination .swiper-pagination {
+  bottom: 50px;
+  left: unset;
+  display: flex;
+  flex-direction: column;
+  top: 15.9%;
+  left: 9px;
+  width: unset;
+}
+
+    }
+
+@media only screen and (max-width: 1280px){
+  .sub-menu {
+    opacity: 1;
+    width: 100%;
+    height: 155px;
+    position: relative;
+    bottom: 174px;
+    left: -113px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+}
+
+.hero-col-1 {
+    padding: 23px;
+    background: #002554;
+    width: 495px;
+}
+
+.hero-col-2 {
+    padding: 23px;
+    background: #002A60;
+    border-radius: 0px 100px 100px 0px;
+    width: 644px;
+}
+
+.box-image-main {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 107px;
+}
+
+.swiper-group-1.right-pagination .swiper-pagination {
+  bottom: 50px;
+  left: unset;
+  display: flex;
+  flex-direction: column;
+  top: 35.9%;
+  left: 100px;
+  width: unset;
+}
+
+ .box-info-banner11 h1 {
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 60px;
+    }
+}

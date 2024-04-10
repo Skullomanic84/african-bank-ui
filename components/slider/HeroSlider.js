@@ -47,10 +47,10 @@ const HeroSlider = () => {
               <div className="banner-abs">
                 <div className="container">
                   <div className="row d-flex">
-                    <div className="col-lg-6 hero-info-wrapper">
-                    <div className="box-info-banner11">
+                    <div className="col-lg-6 col-md-12 col-sm-12 hero-info-wrapper">
+                      <div className="box-info-banner11">
                         <h1 className="color-slider-title mb-5">
-                        Banking centered around <span>you</span>
+                          Banking centered around <span>you</span>
                         </h1>
 
                         <div className="box-button-offer swiper-cta">
@@ -61,9 +61,14 @@ const HeroSlider = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 d-none d-lg-block position-relative">
-                    <div className="box-image-main"><img className="image-banner-main d-block" src="assets/imgs/new-site/Spirographs_Digital_500x500-01.svg" alt="iori" /></div>
-
+                    <div className="col-lg-6 col-md-12 col-sm-12 d-none d-lg-block position-relative">
+                      <div className="box-image-main">
+                        <img
+                          className="image-banner-main d-block"
+                          src="assets/imgs/new-site/Spirographs_Digital_500x500-01.svg"
+                          alt="iori"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -81,10 +86,10 @@ const HeroSlider = () => {
               <div className="banner-abs">
                 <div className="container">
                   <div className="row d-flex">
-                    <div className="col-lg-6 hero-info-wrapper">
-                    <div className="box-info-banner11">
+                    <div className="col-lg-6 col-md-12 col-sm-12 hero-info-wrapper">
+                      <div className="box-info-banner11">
                         <h1 className="color-slider-title mb-5">
-                        Banking centered around <span>business</span>
+                          Banking centered around <span>business</span>
                         </h1>
 
                         <div className="box-button-offer swiper-cta">
@@ -95,9 +100,14 @@ const HeroSlider = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 d-none d-lg-block position-relative">
-                    <div className="box-image-main"><img className="image-banner-main d-block" src="assets/imgs/new-site/Spirographs_Digital_500x500-01.svg" alt="iori" /></div>
-
+                    <div className="col-lg-6 col-md-12 col-sm-12 d-none d-lg-block position-relative">
+                      <div className="box-image-main">
+                        <img
+                          className="image-banner-main d-block"
+                          src="assets/imgs/new-site/Spirographs_Digital_500x500-01.svg"
+                          alt="iori"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -115,10 +125,10 @@ const HeroSlider = () => {
               <div className="banner-abs">
                 <div className="container">
                   <div className="row d-flex">
-                    <div className="col-lg-6 hero-info-wrapper">
-                    <div className="box-info-banner11">
+                    <div className="col-lg-6 col-md-12 col-sm-12 hero-info-wrapper">
+                      <div className="box-info-banner11">
                         <h1 className="color-slider-title mb-5">
-                        Banking centered around <span>you</span>
+                          Banking centered around <span>you</span>
                         </h1>
 
                         <div className="box-button-offer swiper-cta">
@@ -129,9 +139,14 @@ const HeroSlider = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 d-none d-lg-block position-relative">
-                    <div className="box-image-main"><img className="image-banner-main d-block" src="assets/imgs/new-site/Spirographs_Digital_500x500-01.svg" alt="iori" /></div>
-
+                    <div className="col-lg-6 col-md-12 col-sm-12 d-none d-lg-block position-relative">
+                      <div className="box-image-main">
+                        <img
+                          className="image-banner-main d-block"
+                          src="assets/imgs/new-site/Spirographs_Digital_500x500-01.svg"
+                          alt="iori"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -149,10 +164,10 @@ const HeroSlider = () => {
               <div className="banner-abs">
                 <div className="container">
                   <div className="row d-flex">
-                    <div className="col-lg-6 hero-info-wrapper">
-                    <div className="box-info-banner11">
+                    <div className="col-lg-6 col-md-12 col-sm-12 hero-info-wrapper">
+                      <div className="box-info-banner11">
                         <h1 className="color-slider-title mb-5">
-                        Banking centered around <span>you</span>
+                          Banking centered around <span>you</span>
                         </h1>
 
                         <div className="box-button-offer swiper-cta">
@@ -163,9 +178,14 @@ const HeroSlider = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 d-none d-lg-block position-relative">
-                    <div className="box-image-main"><img className="image-banner-main d-block" src="assets/imgs/new-site/Spirographs_Digital_500x500-01.svg" alt="iori" /></div>
-
+                    <div className="col-lg-6 col-md-12 col-sm-12 d-none d-lg-block position-relative">
+                      <div className="box-image-main">
+                        <img
+                          className="image-banner-main d-block"
+                          src="assets/imgs/new-site/Spirographs_Digital_500x500-01.svg"
+                          alt="iori"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -178,7 +198,7 @@ const HeroSlider = () => {
         <div className="sub-menu">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col hero-col-1 text-center">
+              <div className="col-lg-6 hero-col-1 text-center">
                 <div className="modal-pop">
                   <h5 className="modal-title">
                     I Would Like
@@ -191,7 +211,7 @@ const HeroSlider = () => {
                   </div>
                 </div>
               </div>
-              <div className="col hero-col-2 icon-section">
+              <div className="col-lg-6 hero-col-2 icon-section">
                 <div className="box-button">
                   {" "}
                   <Link className="btn-app" href="/bank">
