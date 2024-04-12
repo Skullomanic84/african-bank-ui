@@ -10035,19 +10035,27 @@ footer.footer-4 {
 
        .sub-menu {
         opacity: 1;
-        width: 100%;
+        width: 431px;
         height: 155px;
         position: relative;
-        bottom: 220px;
+        bottom: 174px;
+        left: 0px;
         z-index: 100;
         display: flex;
         align-items: center;
-      }
+    }
+
       .box-info-banner11 h1 {
     font-weight: 400;
     font-size: 32px;
     line-height: 34px;
       }
+
+      .btn-app {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 13px;
+    }
 
       .box-info-banner11 {
       margin-top: -211px;
@@ -10072,14 +10080,21 @@ footer.footer-4 {
 
     .sub-menu {
     opacity: 1;
-    width:365px;
-    height: 55px;
+    width: 431px;
+    height: 155px;
     position: relative;
-    bottom: 220px;
+    bottom: 174px;
+    left: 0px;
     z-index: 100;
     display: flex;
     align-items: center;
-    }
+}
+
+    .btn-app {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 13px;
+  }
 
     .btn-app img {
       width: 30px;
