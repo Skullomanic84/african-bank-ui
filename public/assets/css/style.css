@@ -270,11 +270,11 @@ input[type=number]:focus,
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   font-style: normal;
   color: #000000;
 }
@@ -283,36 +283,42 @@ h1 {
   font-weight: 700;
   font-size: 48px;
   line-height: 59px;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 h2 {
     font-weight: 700;
     font-size: 35px;
     line-height: 45px;
+    font-family: "Montserrat", sans-serif !important;
 }
 
 h3 {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 h4 {
   font-weight: 700;
   font-size: 18px;
   line-height: 25px;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 h5 {
   font-weight: 700;
   font-size: 14px;
   line-height: 28px;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 h6 {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  font-family: "Montserrat", sans-serif !important;
 }
 
 .bg-brand-1 {
