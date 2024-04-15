@@ -27,7 +27,7 @@ const HeroSlider = () => {
           pagination={true}
           loop={true}
           autoplay={{
-            delay: 4500,
+            delay: 4500000,
             disableOnInteraction: false,
           }}
           navigation={{
