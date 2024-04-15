@@ -282,42 +282,42 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 59px;
+  line-height: 1.5;
   font-family: "Montserrat", sans-serif !important;
 }
 
 h2 {
     font-weight: 700;
     font-size: 35px;
-    line-height: 45px;
+    line-height: 1.5;
     font-family: "Montserrat", sans-serif !important;
 }
 
 h3 {
   font-weight: 700;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 1.5;
   font-family: "Montserrat", sans-serif !important;
 }
 
 h4 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 1.5;
   font-family: "Montserrat", sans-serif !important;
 }
 
 h5 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 28px;
+  line-height: 1.5;
   font-family: "Montserrat", sans-serif !important;
 }
 
 h6 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.5;
   font-family: "Montserrat", sans-serif !important;
 }
 
@@ -426,28 +426,28 @@ h6 {
 .font-3xl {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  line-height: 36px;
+  line-height: 1.5;
   font-size: 30px;
 }
 
 .font-2xl {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  line-height: 32px;
+  line-height: 1.5;
   font-size: 24px;
 }
 
 .font-xl {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  line-height: 28px;
+  line-height: 1.5;
   font-size: 20px;
 }
 
 .font-lg {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  line-height: 23px;
+  line-height: 1.5;
   font-size: 18px;
 }
 
@@ -455,7 +455,7 @@ h6 {
   font-weight: 400 !important;
   font-family: "Montserrat", sans-serif !important;
   line-height: 1.5;
-  font-size: 21px !important;
+  font-size: 18px !important;
 }
 
 .font-sm {
@@ -7408,7 +7408,7 @@ footer a {
 
 .sub-menu {
   opacity: 1;
-  width: 69%;
+  width: 95%;
   height: 155px;
   position: relative;
   bottom: 220px;
@@ -10041,7 +10041,7 @@ footer.footer-4 {
 
        .sub-menu {
         opacity: 1;
-        width: 431px;
+        width: 95%;
         height: 155px;
         position: relative;
         bottom: 174px;
@@ -10090,7 +10090,7 @@ footer.footer-4 {
 
     .sub-menu {
     opacity: 1;
-    width: 416px;
+    width: 95%;
     height: 155px;
     position: relative;
     bottom: 174px;
