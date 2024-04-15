@@ -61,7 +61,7 @@ const HeroSlider = () => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 col-sm-12 d-none d-lg-block position-relative">
+                    <div className="col-lg-6 col-md-12 col-sm-12 d-lg-block position-relative">
                       <div className="box-image-main">
                         <img
                           className="image-banner-main d-block"
