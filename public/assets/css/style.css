@@ -10078,6 +10078,10 @@ footer.footer-4 {
         display: none !important;
        }
 
+       .banner-slide-11 {
+        min-height: 660px;
+    }
+
     .sub-menu {
     opacity: 1;
     width: 416px;
@@ -10105,15 +10109,8 @@ footer.footer-4 {
       font-size: 9px;
     }
 
-    
-    .box-info-banner11 h1 {
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 34px;
-    }
-
     .box-info-banner11 {
-    margin-top: -211px;
+    margin-top: 47px;
     }
 
      .box-info-banner11 h1 {
@@ -10122,10 +10119,14 @@ footer.footer-4 {
     line-height: 34px;
     }
 
-    .box-info-banner11 {
-    margin-top: -211px;
-    }
 
+    .box-image-main {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      margin-top: -23px;
+  }
+  
   .swiper-group-1.right-pagination .swiper-pagination {
   bottom: 50px;
   left: unset;
