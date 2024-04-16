@@ -44,7 +44,7 @@ const Home = () => {
         {/* loan-products */}
         <section className="section-800 mb-20">
           <div className="container">
-            <div className="row align-items-center flex-lg-row-reverse flex-md-row-reverse">
+            <div className="row d-flex align-items-center flex-lg-row-reverse flex-md-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Find your ideal loan solution with African Bank.
@@ -140,7 +140,7 @@ const Home = () => {
         {/* download app */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center flex-lg-row-reverse">
+            <div className="row d-flex align-items-center flex-lg-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mb-20">Get the app now</h1>
                 <p className="font-md color-grey-500">
@@ -167,7 +167,7 @@ const Home = () => {
         {/* bank with the best section */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-lg-row-reverse">
+            <div className="row d-flex align-items-center flex-lg-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Experience premium banking with MyWORLD
@@ -203,7 +203,7 @@ const Home = () => {
         {/* invest section */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center flex-lg-row-reverse">
+            <div className="row d-flex align-items-center flex-lg-row-reverse">
             <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Grow your wealth with African Bank
