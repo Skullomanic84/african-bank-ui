@@ -28,7 +28,7 @@ const Breadcrumbs = () => {
           return (
             <li key={index}>
               {isLast ? (
-                <span>{segment}</span> // Removed the chevron for the last item
+                <span>Home <BsChevronRight className="right-icon"/> {segment}</span> // Removed the chevron for the last item
               ) : (
                 <>
                   <Link href={href}>

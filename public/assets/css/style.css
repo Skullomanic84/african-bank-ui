@@ -1158,7 +1158,7 @@ body {
   color: #F9F9F9;
 }
 .btn.btn-brand-1:hover {
-  background-color: #AAC236;
+  background-color: #B6D133;
   color: #F9F9F9;
   transform: translate(10px,0);
 }
@@ -1564,6 +1564,8 @@ body {
   color: #3D565F;
   font-weight: 500;
 }
+
+
 
 .cb-container input:checked~.text-small {
   color: #3D565F;
@@ -10764,6 +10766,22 @@ footer.footer-4 {
 }
 
 @media (max-width: 575.98px) {
+
+  .btn.btn-brand-1 {
+    width: 292px;
+  }
+  .fw-bold {
+    font-weight: 500 !important;
+}
+  .center-banner{
+    top: 20px;
+    position: relative;
+  }
+
+  .cookies-banner{
+    padding-top: 5px;
+  }
+  
   .header {
     padding: 10px 0;
   }
@@ -10868,6 +10886,18 @@ footer.footer-4 {
 
 @media (max-width: 499.98px) {
 
+  .btn.btn-brand-1 {
+    width: 292px;
+  }
+  .fw-bold {
+    font-weight: 500 !important;
+}
+  .center-banner{
+    top: 20px;
+    position: relative;
+  }
+
+
   .footer .width-20,
   .footer .width-16,
   .footer .width-23 {
@@ -10956,6 +10986,18 @@ footer.footer-4 {
 }
 
 @media (max-width: 449.98px) {
+
+  .btn.btn-brand-1 {
+    width: 292px;
+  }
+  .fw-bold {
+    font-weight: 500 !important;
+}
+  .center-banner{
+    top: 20px;
+    position: relative;
+  }
+
   .box-newsletter .image-1 img {
     width: 55px;
   }
@@ -11109,6 +11151,17 @@ footer.footer-4 {
 }
 
 @media (max-width: 349.98px) {
+  .btn.btn-brand-1 {
+    width: 292px;
+  }
+  .fw-bold {
+    font-weight: 500 !important;
+}
+  .center-banner{
+    top: 20px;
+    position: relative;
+  }
+
   .mobile-header-wrapper-style {
     width: 310px;
   }
@@ -11204,6 +11257,17 @@ footer.footer-4 {
 @media only screen and (min-width: 2000px) {}
 
 @media only screen and (max-width: 480px) {
+  .btn.btn-brand-1 {
+    width: 292px;
+  }
+  .fw-bold {
+    font-weight: 500 !important;
+}
+  .center-banner{
+    top: 20px;
+    position: relative;
+  }
+
   .hero-col-1 {
     display: none !important;
   }

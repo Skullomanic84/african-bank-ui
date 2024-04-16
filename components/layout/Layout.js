@@ -42,7 +42,6 @@ const Layout = ({ children }) => {
                 <br/>
                 {cleanPath === "/" ? <Banner /> : <Breadcrumbs />}
             </div>
-            <Banner />
             <Sidebar openClass={openClass} />
             <main className="main">
                 {children}
