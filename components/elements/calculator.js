@@ -99,6 +99,8 @@ const Calculactor = () => {
             </div>
           </div>
           <div className="mt-50 text-start">
+                
+                
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     apply Now
                     <BsChevronRight className="right-icon"/>
