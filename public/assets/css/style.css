@@ -11396,6 +11396,26 @@ footer.footer-4 {
 
 @media (min-width: 1024px) and (max-width: 1440px) {
 
+
+.sub-menu{
+  opacity: 1;
+    width: 65%;
+    position: relative;
+    bottom: 134px;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+.hero-col-2{
+
+  padding: 0 !important;
+  background: #002a60 !important;
+  width: 100%;
+}
+
   .box-image-main {
     position: relative;
     height: 100%;
