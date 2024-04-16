@@ -3367,17 +3367,16 @@ body {
 }
 
 .header .main-header .header-left .header-logo {
-  max-width: 150px;
+  max-width: 120px;
   width: 100%;
+  height: auto;
 }
 
 .header .main-header .header-left .header-logo a {
   display: block;
 }
 
-.header .main-header .header-left .header-logo a img {
-  min-height: 45px;
-}
+
 
 .header .main-header .header-left .header-nav {
   display: inline-block;
