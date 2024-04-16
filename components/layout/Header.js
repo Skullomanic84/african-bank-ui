@@ -52,6 +52,8 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                   </nav>
                   
                 </div>
+
+              </div>
                 <div className="header-right">
                   <div className="d-inline-block box-search-top">
                     <div
@@ -136,7 +138,6 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                     <span className="burger-icon-bottom" />
                   </div>
                 </div>
-              </div>
             </div>
             </div>
           </div>
