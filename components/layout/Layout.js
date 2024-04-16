@@ -14,7 +14,8 @@ const Layout = ({ children }) => {
 
 
     const { asPath } = useRouter();
-    const cleanPath = asPath.split('#')[0].split('?')[0];
+    // const cleanPath = asPath.split('#')[0].split('?')[0];
+    const cleanPath = asPath.trim();
 
     const handleOpen = () => {
         document.body.classList.add("mobile-menu-active");
@@ -36,7 +37,12 @@ const Layout = ({ children }) => {
             <PageHead />
             <div className="body-overlay-1" onClick={handleRemove} />
             <Header handleOpen={handleOpen} handleRemove={handleRemove} openClass={openClass} addClass="header-home7" />
-            {cleanPath === "/" ? <Banner/>  : <Breadcrumbs/>}
+            <div>
+                <br/>
+                <br/>
+                {cleanPath === "/" ? <Banner /> : <Breadcrumbs />}
+            </div>
+            <Banner />
             <Sidebar openClass={openClass} />
             <main className="main">
                 {children}

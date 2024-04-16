@@ -25,6 +25,7 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
           } ${addClass}`}
         >
           <div className="container">
+            <div className='row'>
             <div className="main-header">
               <div className="header-left">
                 <div className="header-logo">
@@ -49,20 +50,10 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                       </li>
                     </ul>
                   </nav>
-                  <div
-                    className={`burger-icon burger-icon-white ${
-                      openClass && "burger-close"
-                    }`}
-                    onClick={() => {
-                      handleOpen();
-                      handleRemove();
-                    }}
-                  >
-                    <span className="burger-icon-top" />
-                    <span className="burger-icon-mid" />
-                    <span className="burger-icon-bottom" />
-                  </div>
+                  
                 </div>
+
+              </div>
                 <div className="header-right">
                   <div className="d-inline-block box-search-top">
                     <div
@@ -132,8 +123,22 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                       LOGIN
                     </Link>
                   </div>
+
+                  <div
+                    className={`burger-icon burger-icon-white ${
+                      openClass && "burger-close"
+                    }`}
+                    onClick={() => {
+                      handleOpen();
+                      handleRemove();
+                    }}
+                  >
+                    <span className="burger-icon-top" />
+                    <span className="burger-icon-mid" />
+                    <span className="burger-icon-bottom" />
+                  </div>
                 </div>
-              </div>
+            </div>
             </div>
           </div>
         </header>

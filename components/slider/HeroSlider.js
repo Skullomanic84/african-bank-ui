@@ -21,6 +21,8 @@ const HeroSlider = () => {
 
     return (
       <>
+         <div
+         >
         <Swiper
           slidesPerView={1}
           spaceBetween={0}
@@ -48,7 +50,7 @@ const HeroSlider = () => {
                 <div className="container">
                   <div className="row d-flex">
                     <div className="col-lg-6 col-md-12 col-sm-12 hero-info-wrapper">
-                      <div className="box-info-banner11">
+                      <div className="box-info-banner11 my-banner">
                         <h1 className="color-slider-title mb-5">
                           Banking centered around <span>you</span>
                         </h1>
@@ -193,10 +195,10 @@ const HeroSlider = () => {
             </div>
           </SwiperSlide>
         </Swiper>
-
+        </div>
         {/* navbar */}
         <div className="sub-menu">
-          <div className="container">
+          <div className="container box-sub">
             <div className="row justify-content-center">
               <div className="col-lg-6 hero-col-1 text-center">
                 <div className="modal-pop">
