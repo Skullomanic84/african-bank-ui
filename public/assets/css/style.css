@@ -11271,7 +11271,7 @@ footer.footer-4 {
     opacity: 1;
     width: 55%;
     position: relative;
-    bottom: 24px;
+    bottom: 68px;
     left: 0;
     z-index: 100;
     display: flex;
@@ -11331,30 +11331,6 @@ footer.footer-4 {
 }
 
 @media (min-width: 1024px) and (max-width: 1440px) {
-  .sub-menu {
-    opacity: 1;
-    width: 63%;
-    position: relative;
-    bottom: 126px;
-    left: 0;
-    z-index: 100;
-    display: flex;
-    align-items: center;
-    height: 154px;
-  }
-
-  .hero-col-1 {
-    padding: 23px;
-    background: #002554;
-    width: 495px;
-  }
-
-  .hero-col-2 {
-    padding: 23px;
-    background: #002A60;
- 
-    width: 644px;
-  }
 
   .box-image-main {
     position: relative;
