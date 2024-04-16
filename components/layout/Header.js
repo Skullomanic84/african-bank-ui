@@ -120,7 +120,7 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                       LOGIN
                     </Link>
                   </div>
-
+                  
                   <div
                     className={`burger-icon burger-icon-white ${
                       openClass && "burger-close"
