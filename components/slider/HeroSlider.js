@@ -198,7 +198,7 @@ const HeroSlider = () => {
         </div>
         {/* navbar */}
         <div className="sub-menu">
-          <div className="container">
+          <div className="container box-sub">
             <div className="row justify-content-center">
               <div className="col-lg-6 hero-col-1 text-center">
                 <div className="modal-pop">
