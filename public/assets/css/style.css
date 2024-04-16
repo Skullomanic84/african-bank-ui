@@ -3388,7 +3388,6 @@ body {
 
 .header .main-header .header-left .header-right {
   width: 40%;
-  text-align: right;
 }
 
 .header .main-header .header-left .header-right .icon-list {
@@ -4265,7 +4264,7 @@ body {
   -webkit-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   top: 30px;
-  right: -40px;
+  right: 0px;
   z-index: 1004;
 }
 
