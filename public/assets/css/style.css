@@ -3469,14 +3469,18 @@ body {
 }
 
 .hero-col-1 {
-  padding: 23px;
+  padding: 25px;
   background: #002554;
+  position: absolute;
+  width: 27%;
+  left: 0;
 }
 
 .hero-col-2 {
-  padding: 23px;
-  background: #002A60;
-  border-radius: 0px 100px 100px 0px;
+  padding: 20px;
+  background: #002a60;
+  border-radius: 0 100px 100px 0;
+  position: absolute;
 }
 
 
@@ -8057,6 +8061,7 @@ footer a {
   z-index: 100;
   display: flex;
   align-items: center;
+  margin-top: -27px;
 }
 
 .banner-11 {
