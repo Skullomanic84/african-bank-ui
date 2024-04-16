@@ -25,6 +25,7 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
           } ${addClass}`}
         >
           <div className="container">
+            <div className='row'>
             <div className="main-header">
               <div className="header-left">
                 <div className="header-logo">
@@ -120,7 +121,7 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                       LOGIN
                     </Link>
                   </div>
-                  
+
                   <div
                     className={`burger-icon burger-icon-white ${
                       openClass && "burger-close"
@@ -136,6 +137,7 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                   </div>
                 </div>
               </div>
+            </div>
             </div>
           </div>
         </header>
