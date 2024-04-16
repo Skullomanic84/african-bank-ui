@@ -168,7 +168,7 @@ const Home = () => {
         {/* bank with the best section */}
         <section className="section-800">
           <div className="container">
-            <div className="row d-flex align-items-center row-change">
+            <div className="row align-items-center row-change">
             <div className="col-xl-6 col-lg-6 col-md-6">
                 <img
                   className="d-block"
@@ -205,7 +205,7 @@ const Home = () => {
         {/* invest section */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row d-flex align-items-center">
+            <div className="row d-flex align-items-center row-change">
             <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Grow your wealth with African Bank
