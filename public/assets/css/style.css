@@ -11171,7 +11171,7 @@ footer.footer-4 {
 
  .row-change {
         display: flex !important;
-        flex-direction: row-reverse !important;
+        flex-direction: column-reverse !important;
       }
 
   .sub-menu {
