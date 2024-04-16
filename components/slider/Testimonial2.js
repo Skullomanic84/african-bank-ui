@@ -65,7 +65,7 @@ const Testimonial2 = () => {
                         <div className="card-review">
                             <div className="card-info">
                                 <div className="rating-review"> <img src="/assets/imgs/page/homepage7/star.png" alt="iori" /><img src="/assets/imgs/page/homepage7/star.png" alt="iori" /><img src="/assets/imgs/page/homepage7/star.png" alt="iori" /><img src="/assets/imgs/page/homepage7/star.png" alt="iori" /><img src="/assets/imgs/page/homepage7/star.png" alt="iori" /></div>
-                                <p className="font-md color-grey-800 mb-20">I'm very impressed with this new African Bank offering. Took me 5 mins to open a bank account today. Left with my printed 'black' card! You can also add & link family members to your account & they can transact with their own individual cards. Check it out.</p>
+                                <p className="font-md color-grey-800 mb-20">I&apos;m very impressed with this new African Bank offering. Took me 5 mins to open a bank account today. Left with my printed &apos;black&apos; card! You can also add & link family members to your account & they can transact with their own individual cards. Check it out.</p>
                                 <div className="box-author"><a href="#"><img src="/assets/imgs/new-site/logo-two.png" alt="author image" /></a>
                                     <div className="author-info"><a href="#"><span className="font-md-bold color-brand-1 author-name">Lindela</span></a></div>
                                 </div>
