@@ -25,7 +25,7 @@ const Home = () => {
           </div>
         </section>
         {/* loan calculator */}
-        <section className="section-800 pt-50 pb-40 home-loan-calculator bg-grey-60">
+        <section className="section-800 pt-50 pb-40 home-loan-calculator bg-grey-60 flex-lg-row-reverse">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-6 col-lg-6 col-md-6">
@@ -44,7 +44,7 @@ const Home = () => {
         {/* loan-products */}
         <section className="section-800 mb-20">
           <div className="container">
-            <div className="row align-items-center flex-sm-row-reverse">
+            <div className="row align-items-center flex-lg-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <img
                   className="d-block"
