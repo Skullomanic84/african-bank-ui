@@ -205,6 +205,14 @@ const Home = () => {
           <div className="container">
             <div className="row align-items-center flex-sm-row-reverse">
             <div className="col-xl-6 col-lg-6 col-md-6">
+                <img
+                  className="d-block"
+                  src="assets\imgs\new-site\retirement.png"
+                  alt="iori"
+                />
+              </div>
+              
+            <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Grow your wealth with African Bank
                 </h1>
@@ -224,16 +232,7 @@ const Home = () => {
                     <BsChevronRight className="right-icon"/>
                   </Link>
                 </div>
-              </div>
-              
-              <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
-                  className="d-block"
-                  src="assets\imgs\new-site\retirement.png"
-                  alt="iori"
-                />
-              </div>
-              
+              </div> 
             </div>
           </div>
         </section>
