@@ -10088,11 +10088,6 @@ footer.footer-4 {
         min-height: 660px;
     }
 
-    .row-change {
-      display: flex !important;
-      flex-direction: row-reverse !important;
-    }
-
     .sub-menu {
     opacity: 1;
     width: 100%;
