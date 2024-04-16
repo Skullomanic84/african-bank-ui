@@ -3369,13 +3369,16 @@ body {
   display: flex;
   align-items: center;
   width: 50%;
+ justify-content: flex-start;
 }
 
 .header .main-header .header-right {
   display: flex;
   align-items: center;
   width: 50%;
+ justify-content: flex-end;
 }
+
 .header .main-header .header-left .header-logo {
   max-width: 120px;
   width: 100%;
