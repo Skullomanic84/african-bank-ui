@@ -3368,9 +3368,14 @@ body {
 .header .main-header .header-left {
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 50%;
 }
 
+.header .main-header .header-right {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
 .header .main-header .header-left .header-logo {
   max-width: 120px;
   width: 100%;
