@@ -11169,6 +11169,11 @@ footer.footer-4 {
     display: none !important;
   }
 
+ .row-change {
+        display: flex !important;
+        flex-direction: row-reverse !important;
+      }
+
   .sub-menu {
     opacity: 1;
     width: 95%;
@@ -11218,7 +11223,11 @@ footer.footer-4 {
   .banner-slide-11 {
     min-height: 660px;
   }
-
+.row-change {
+        display: flex !important;
+        flex-direction: row-reverse !important;
+      }
+ 
   .sub-menu {
     opacity: 1;
     width: 100%;
