@@ -66,7 +66,7 @@ const Testimonial2 = () => {
                             <div className="card-info">
                                 <div className="rating-review"> <img src="/assets/imgs/page/homepage7/star.png" alt="iori" /><img src="/assets/imgs/page/homepage7/star.png" alt="iori" /><img src="/assets/imgs/page/homepage7/star.png" alt="iori" /><img src="/assets/imgs/page/homepage7/star.png" alt="iori" /><img src="/assets/imgs/page/homepage7/star.png" alt="iori" /></div>
                                 <p className="font-md color-grey-800 mb-20">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list. When team members can choose the work style that suits them best, productivity and engagement skyrocket. Maecenas lobortis risus.</p>
-                                <div className="box-author"><a href="#"><img src="/assets/imgs/page/homepage7/author4.png" alt="iori" /></a>
+                                <div className="box-author"><a href="#"><img src="/assets/imgs" alt="iori" /></a>
                                     <div className="author-info"><a href="#"><span className="font-md-bold color-brand-1 author-name">Guy Hawkins</span></a><span className="font-xs color-grey-500 department">Bank of America</span></div>
                                 </div>
                             </div>
