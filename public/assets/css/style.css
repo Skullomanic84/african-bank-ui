@@ -9819,6 +9819,9 @@ footer.footer-4 {
 }
 
 @media (max-width: 1550px) {
+  .cookies-banner{
+    margin-top: 45px;
+  }
   .bg-faqs {
     background-size: 190px;
   }
@@ -9845,6 +9848,10 @@ footer.footer-4 {
 }
 
 @media (max-width: 1399.98px) {
+  .cookies-banner{
+    margin-top: 45px;
+  }
+
   .card-plan {
     padding: 20px 15px;
   }
@@ -9915,6 +9922,8 @@ footer.footer-4 {
 }
 
 @media (max-width: 1199.98px) {
+
+
   .header {
     padding: 10px 0;
   }
@@ -11235,6 +11244,10 @@ footer.footer-4 {
 }
 
 @media (min-width: 1400px) {
+  .cookies-banner{
+    margin-top: 45px;
+  }
+
   .container.wide {
     max-width: 1544px;
   }
