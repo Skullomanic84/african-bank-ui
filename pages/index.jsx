@@ -25,7 +25,7 @@ const Home = () => {
           </div>
         </section>
         {/* loan calculator */}
-        <section className="section-800 pt-50 pb-40 home-loan-calculator bg-grey-60 flex-lg-row-reverse">
+        <section className="section-800 pt-50 pb-40 home-loan-calculator bg-grey-60">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-xl-6 col-lg-6 col-md-6">
@@ -44,21 +44,7 @@ const Home = () => {
         {/* loan-products */}
         <section className="section-800 mb-20">
           <div className="container">
-            <div className="row align-items-center flex-lg-row-reverse">
-              <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
-                  className="d-block"
-                  src="assets\imgs\new-site\get a loan.png"
-                  alt="iori"
-                />
-                <div className="d-none d-sm-inline-block pr-5">
-                  <Link className="btn btn-brand-1 hover-up" href="#">
-                    QUOTE ME
-
-                    <BsChevronRight className="right-icon"/>
-                  </Link>
-                </div>
-              </div>
+            <div className="row align-items-center flex-lg-row-reverse flex-md-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Find your ideal loan solution with African Bank.
@@ -132,6 +118,20 @@ const Home = () => {
                       </div>
                     </div>
                   </div>
+                </div>
+              </div>
+              <div className="col-xl-6 col-lg-6 col-md-6">
+                <img
+                  className="d-block"
+                  src="assets\imgs\new-site\get a loan.png"
+                  alt="iori"
+                />
+                <div className="d-none d-sm-inline-block pr-5">
+                  <Link className="btn btn-brand-1 hover-up" href="#">
+                    QUOTE ME
+
+                    <BsChevronRight className="right-icon"/>
+                  </Link>
                 </div>
               </div>
             </div>
