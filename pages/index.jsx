@@ -27,7 +27,7 @@ const Home = () => {
         {/* loan calculator */}
         <section className="section-800 pt-50 pb-40 home-loan-calculator bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <Calculactor />
               </div>
@@ -203,7 +203,7 @@ const Home = () => {
         {/* invest section */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <img
                   className="d-block"
