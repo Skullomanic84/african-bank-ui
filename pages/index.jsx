@@ -167,7 +167,7 @@ const Home = () => {
         {/* bank with the best section */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-sm-row-reverse">
+            <div className="row align-items-center flex-lg-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Experience premium banking with MyWORLD
