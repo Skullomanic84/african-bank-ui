@@ -9229,7 +9229,7 @@ footer.footer-4 {
     right: -50px;
   }
   h1 {
-    font-size: 28px;
+    font-size: 28px !important;
     line-height: 1.5;
   }
   h2 {
@@ -9715,7 +9715,7 @@ footer.footer-4 {
     display: block;
   }
   h1 {
-    font-size: 34px;
+    font-size: 28px !important;
     line-height: 40px;
   }
   h4 {
