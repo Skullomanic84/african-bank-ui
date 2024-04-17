@@ -11321,13 +11321,6 @@ footer.footer-4 {
 @media only screen and (min-width: 2000px) {}
 
 @media only screen and (max-width: 480px) {
-
- .mobile-logo {
-    display: block;
-  }
-  .desktop-logo {
-    display: none;
-  }
  
   .header .main-header{
     padding: 0px 20px;
@@ -11409,10 +11402,10 @@ footer.footer-4 {
 @media only screen and (max-width: 926px) {
 
   .mobile-logo {
-    display: block;
+    display: block !important;
   }
   .desktop-logo {
-    display: none;
+    display: none !important;
   }
  
   .hero-col-1 {
