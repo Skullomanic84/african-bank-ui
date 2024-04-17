@@ -11401,6 +11401,13 @@ footer.footer-4 {
 
 }
 
+@media (min-width: 820px) and (max-width: 1024px) and (orientation: portrait) and (orientation: landscape) {
+    .row-change {
+    margin-top: 70px;
+    display: flex !important;
+  }
+}
+
 @media only screen and (max-width: 926px) {
 
   .mobile-logo {
