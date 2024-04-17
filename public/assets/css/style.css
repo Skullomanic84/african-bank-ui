@@ -703,13 +703,6 @@ a:hover {
 
 
 @media (min-width: 1400px) {
- .mobile-logo {
-    display: none;
-  }
-
-  .desktop-logo {
-    display: block;
-  }
 
   .container,
   .container-lg,
