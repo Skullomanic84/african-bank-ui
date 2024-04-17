@@ -1119,7 +1119,6 @@ body {
   font-weight: 400;
   text-decoration: none;
   position: relative;
-  transition: transform ease 1000ms;
 }
 
 
@@ -1147,17 +1146,13 @@ body {
   font-weight: 700;
   background: #B6D133 0% 0%;
   box-shadow: 2px 5px 10px #00000029;
-  transition: transform ease 1000ms;
+  transition: transform ease 0.5s;
 }
 
 .btn.btn-brand-1 svg {
   color: #F9F9F9;
 }
-/* .btn.btn-brand-1:hover {
-  background-color: #B6D133;
-  color: #F9F9F9;
-  transform: translate(10px,0);
-} */
+
 
 .btn.btn-brand-1:hover .right-icon  { /* Targeting span on hover */
   background-color: #B6D133; /* This won't be visible if span doesn't fill button */
@@ -1165,10 +1160,7 @@ body {
   transform: translate(10px, 0);
 }
 
-/* .btn.btn-brand-1:hover * {
-  color: #fff;
-  transform: translate(10px,0);
-} */
+
 .btn.btn-submit-newsletter {
   padding: 15px 16px 16px 16px;
   background-color: #024430;
