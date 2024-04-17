@@ -11401,7 +11401,7 @@ footer.footer-4 {
 
 }
 
-@media only screen and (max-width: 926px) and (orientation: landscape) {
+@media only screen and (max-width: 926px) {
 
   .mobile-logo {
     display: block !important;
