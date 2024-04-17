@@ -44,8 +44,8 @@ const Home = () => {
         {/* loan-products */}
         <section className="section-800 mb-20">
           <div className="container">
-            <div className="row align-items-center">
-              <div className="col-xl-6 col-lg-6 col-md-6">
+            <div className="row align-items-center row-change">
+            <div className="col-xl-6 col-lg-6 col-md-6">
                 <img
                   className="d-block"
                   src="assets\imgs\new-site\get a loan.png"
@@ -59,6 +59,7 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
+
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Find your ideal loan solution with African Bank.
@@ -140,7 +141,7 @@ const Home = () => {
         {/* download app */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row d-flex align-items-center">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mb-20">Get the app now</h1>
                 <p className="font-md color-grey-500">
@@ -167,7 +168,14 @@ const Home = () => {
         {/* bank with the best section */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
+            <div className="col-xl-6 col-lg-6 col-md-6">
+                <img
+                  className="d-block"
+                  src="assets\imgs\new-site\credit-card.png"
+                  alt="iori"
+                />
+              </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Experience premium banking with MyWORLD
@@ -190,28 +198,15 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
-              <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
-                  className="d-block"
-                  src="assets\imgs\new-site\credit-card.png"
-                  alt="iori"
-                />
-              </div>
+              
             </div>
           </div>
         </section>
         {/* invest section */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
-              <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
-                  className="d-block"
-                  src="assets\imgs\new-site\retirement.png"
-                  alt="iori"
-                />
-              </div>
-              <div className="col-xl-6 col-lg-6 col-md-6">
+            <div className="row d-flex align-items-center">
+            <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Grow your wealth with African Bank
                 </h1>
@@ -232,6 +227,15 @@ const Home = () => {
                   </Link>
                 </div>
               </div>
+              
+              <div className="col-xl-6 col-lg-6 col-md-6">
+                <img
+                  className="d-block"
+                  src="assets\imgs\new-site\retirement.png"
+                  alt="iori"
+                />
+              </div>
+              
             </div>
           </div>
         </section>
