@@ -8126,7 +8126,7 @@ footer a {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 870px;
+  height: 100vh;
   position: relative;
 }
 
@@ -10778,7 +10778,7 @@ footer.footer-4 {
   }
 
   .banner-slide-11 {
-    min-height: 500px;
+    height: 19vh;
   }
 
   .box-info-banner11 {
@@ -11396,7 +11396,7 @@ footer.footer-4 {
   }
 
   .banner-slide-11 {
-    min-height: 660px;
+    height: 80vh;
   }
 
   .header .main-header{
@@ -11438,7 +11438,7 @@ footer.footer-4 {
   }
 
   .box-info-banner11 {
-    margin-top: 17em;
+    margin-top: 0;
   }
 
   .box-info-banner11 h1 {
