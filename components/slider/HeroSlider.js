@@ -241,14 +241,14 @@ const HeroSlider = () => {
                     />
                     <span className="btn-title">Invest</span>
                   </Link>
-                  <Link className="btn-app" href="/save">
+                  {/* <Link className="btn-app" href="/save">
                     {" "}
                     <img
                       src="assets/imgs/new-site/Mask Group 9.svg"
                       alt="iori"
                     />
                     <span className="btn-title">Save</span>
-                  </Link>
+                  </Link> */}
                   <Link className="btn-app" href="/insure">
                     {" "}
                     <img
