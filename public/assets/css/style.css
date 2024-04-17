@@ -3449,7 +3449,8 @@ body {
 }
 
 .header .header-right .btn.btn-brand-2 {
-  padding: 9px 13px;
+  padding: 6px 17px;
+ max-height: 40px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #fff;
