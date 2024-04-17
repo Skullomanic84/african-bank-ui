@@ -11323,6 +11323,12 @@ footer.footer-4 {
 @media only screen and (min-width: 2000px) {}
 
 @media only screen and (max-width: 480px) {
+
+   .row-change {
+    margin-top: 70px;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
  
   .header .main-header{
     padding: 0px 20px;
@@ -11401,12 +11407,6 @@ footer.footer-4 {
 
 }
 
-@media (min-width: 820px) and (max-width: 1024px) and (orientation: portrait) and (orientation: landscape) {
-    .row-change {
-    margin-top: 70px;
-    display: flex !important;
-  }
-}
 
 @media only screen and (max-width: 926px) {
 
@@ -11428,14 +11428,6 @@ footer.footer-4 {
   .header .main-header{
     padding: 0px 20px;
   }
-
-  .row-change {
-    margin-top: 70px;
-    display: flex !important;
-    flex-direction: column-reverse !important;
-  }
-
- 
   .sub-menu {
     opacity: 1;
     width: 55%;
