@@ -46,7 +46,7 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                     <Link className="d-flex mobile-logo" href="/">
                     <img
                       alt="African Bank"
-                      src="assets/imgs/new-site/Logo.png"
+                      src="assets/imgs/new-site/logo-two.png"
                     />
                   </Link>
                 </div>
