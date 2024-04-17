@@ -11290,6 +11290,14 @@ footer.footer-4 {
 
 @media only screen and (max-width: 480px) {
 
+  .right-icon{
+    top: 12px;
+    right: 14px;
+    position: absolute;
+    margin-left: 1rem;
+    font-size: 21px;
+  }
+
   .btn.btn-brand-1 {
     width: 292px;
   }
