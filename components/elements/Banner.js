@@ -1,5 +1,5 @@
-import React from 'react';
 import Image from 'react'
+
 
 const Banner = () => {
 
@@ -9,10 +9,9 @@ const Banner = () => {
   <div className='container'>
     <div className="p-6 ">
       <div className="d-flex align-items-start " style={{backgroundcolor:"#fff", minHeight: '50px' }}>
-     
         <div className="d-inline-flex">
           <img className='center-banner' src="https://www.africanbank.co.za/Media/dqxpfbcm/cookies.svg"  height="25px" width="25px"></img>
-          <h3 className="h6 mb-0 fw-bold text-warning-dark center-banner"> We use cookies to improve your experience</h3>
+          <h5 className="h6 mb-0 fw-bold .fs-4 center-banner cookies-text"> We use cookies to improve your experience</h5>
         </div>
 
         {/* <button className="btn p-0 text-warning-dark">

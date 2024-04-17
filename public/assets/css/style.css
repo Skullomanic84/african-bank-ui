@@ -1107,6 +1107,9 @@ body {
 .cookies-banner{
   max-height: 50px;
 }
+.cookies-text{
+  padding-left: 10px;
+}
 .center-banner{
   top: 14px;
   position: relative;
@@ -1124,9 +1127,6 @@ body {
   transition: transform ease 1000ms;
 }
 
-.btn.btn-brand-1:hover .right-icon{
-  transform: translate(10px,0);
-}
 
 .btn-hero {
   padding: 10px 0px 10px 0px;
@@ -1157,10 +1157,16 @@ body {
 .btn.btn-brand-1 svg {
   color: #F9F9F9;
 }
-.btn.btn-brand-1:hover {
+/* .btn.btn-brand-1:hover {
   background-color: #B6D133;
   color: #F9F9F9;
   transform: translate(10px,0);
+} */
+
+.btn.btn-brand-1:hover .right-icon  { /* Targeting span on hover */
+  background-color: #B6D133; /* This won't be visible if span doesn't fill button */
+  color: #F9F9F9;
+  transform: translate(10px, 0);
 }
 
 /* .btn.btn-brand-1:hover * {
@@ -9803,6 +9809,8 @@ footer.footer-4 {
   animation: fadeIn 1s ease-in-out;
 }
 
+
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -10787,9 +10795,9 @@ footer.footer-4 {
     position: relative;
   }
 
-  .cookies-banner{
-    padding-top: 5px;
-  }
+  .cookies-banner {
+    margin-top: 12px;
+}
   
   .header {
     padding: 10px 0;
@@ -10896,7 +10904,7 @@ footer.footer-4 {
 @media (max-width: 499.98px) {
 
   .btn.btn-brand-1 {
-    width: 292px;
+    width: 340px;
   }
   .fw-bold {
     font-weight: 500 !important;
@@ -10997,7 +11005,7 @@ footer.footer-4 {
 @media (max-width: 449.98px) {
 
   .btn.btn-brand-1 {
-    width: 292px;
+    width: 340px;
   }
   .fw-bold {
     font-weight: 500 !important;
@@ -11271,7 +11279,7 @@ footer.footer-4 {
 
 @media only screen and (max-width: 480px) {
   .btn.btn-brand-1 {
-    width: 292px;
+    width: 325px;
   }
   .fw-bold {
     font-weight: 500 !important;

@@ -58,7 +58,7 @@ const HeroSlider = () => {
                         <div className="box-button-offer swiper-cta">
                           <span className="swipper-cta-title">Learn more</span>
                           <a className="btn btn-default font-sm-bold pl-0 color-brand-1">
-                            <SlArrowRight />
+                            <i  className="right-icon"><SlArrowRight /></i>
                           </a>
                         </div>
                       </div>

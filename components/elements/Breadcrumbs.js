@@ -10,15 +10,9 @@ const Breadcrumbs = () => {
   const pathSegments = router.asPath.split('/').filter(path => path.length > 0);
 
   return (
-    <nav aria-label="breadcrumb">
+    <nav aria-label="breadcrumb"  className="cookies-banner py-8 px-6">
       <ol>
         {/* Always include the Home link first */}
-        <li>
-          <Link href="/">
-            <a>Home</a>
-          </Link>
-          <BsChevronRight className="right-icon"/>
-        </li>
         
         {pathSegments.map((segment, index) => {
           // Reconstruct the URL to this segment
@@ -28,7 +22,7 @@ const Breadcrumbs = () => {
           return (
             <li key={index}>
               {isLast ? (
-                <span>Home <BsChevronRight className="right-icon"/> {segment}</span> // Removed the chevron for the last item
+                <span >Home <BsChevronRight className="right-icon"/> {segment}</span> // Removed the chevron for the last item
               ) : (
                 <>
                   <Link href={href}>

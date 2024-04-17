@@ -101,7 +101,7 @@ const Calculactor = () => {
           <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 newBtn" href="#">
                     apply Now
-                    <BsChevronRight className="right-icon"/>
+                    <i><BsChevronRight className="right-icon"/></i>
                   </Link>
                 </div>
         </div>
