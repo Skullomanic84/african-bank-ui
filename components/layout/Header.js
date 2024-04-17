@@ -107,12 +107,12 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                       </svg>
                     </span>
                   </div>
-                  <div className="d-sm-inline-block pr-5">
-                    <Link className="btn btn-brand-1 hover-up" href="#">
+                  <div className="d-none d-sm-inline-block pr-5">
+                    <Link className="btn btn-brand-1 hzover-up" href="#">
                       Open Account
                     </Link>
                   </div>
-                  <div className="d-sm-inline-block mx-4">
+                  <div className="d-none d-sm-inline-block mx-4">
                     <Link className="btn btn-brand-2 hover-up" href="#">
                       <span class="">
                         <FaCircleUser

@@ -11289,6 +11289,9 @@ footer.footer-4 {
 @media only screen and (min-width: 2000px) {}
 
 @media only screen and (max-width: 480px) {
+  .navbtn{
+    display: none;
+  }
   .btn.btn-brand-1 {
     width: 325px;
   }
@@ -11351,6 +11354,7 @@ footer.footer-4 {
 }
 
 @media only screen and (max-width: 926px) {
+
   .hero-col-1 {
     display: none !important;
   }
