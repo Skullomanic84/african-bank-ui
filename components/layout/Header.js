@@ -35,7 +35,15 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
             <div className="main-header">
               <div className="header-left">
                 <div className="header-logo">
-                  <Link className="d-flex" href="/">
+                    {/* Desktop Logo */}
+                  <Link className="d-flex desktop-logo" href="/">
+                    <img
+                      alt="African Bank"
+                      src="assets/imgs/new-site/Logo.png"
+                    />
+                  </Link>
+                    {/* mobile Logo */}
+                    <Link className="d-flex mobile-logo" href="/">
                     <img
                       alt="African Bank"
                       src="assets/imgs/new-site/Logo.png"
