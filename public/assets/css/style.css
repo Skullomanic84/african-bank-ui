@@ -701,10 +701,11 @@ a:hover {
 }
 
 .mobile-logo {
-    display: none;
+    display: none !important;
   }
+
   .desktop-logo {
-    display: block;
+    display: block !important;
   }
 
 @media (min-width: 1400px) {
