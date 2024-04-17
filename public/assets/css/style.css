@@ -1,9 +1,4 @@
 /***
- Theme Name: iori
- Description: Multipurpose Startup & SaaS HTML Template
- Version: 1.0
- License: GNU General Public License v2 or later
- License URI: http://www.gnu.org/licenses/gpl-2.0.html
 ==============================
 TABLE CONTENT
  Import Google Fonts
@@ -342,7 +337,7 @@ h6 {
 }
 
 .bg-grey-60 {
-  background-color: #F9F9F9 !important;
+  background-color: #F2F2F2 !important;
 }
 
 .bg-grey-63 {
@@ -470,7 +465,7 @@ h6 {
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .font-xs {
@@ -708,7 +703,7 @@ a:hover {
   .container-sm,
   .container-xl,
   .container-xxl {
-    max-width: 1410px;
+    max-width: 1170px;
   }
 }
 
@@ -1140,16 +1135,17 @@ body {
 }
 
 .btn.btn-brand-1 {
-  padding: 15px 0px;
+  padding: 10px 0;
   width: 180px;
-  height: 50px;
+  height: 40px;
+  border: none;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  border-radius: 30px;
+  border-radius: 50px;
   font-size: 12px;
   font-weight: 700;
-  background: #B6D133 0% 0% no-repeat padding-box;
+  background: #B6D133 0% 0%;
   box-shadow: 2px 5px 10px #00000029;
   transition: transform ease 1000ms;
 }
@@ -1760,8 +1756,8 @@ body {
   left: unset;
   display: flex;
   flex-direction: column;
-  top: 34.9%;
-  left: 252px;
+  top: 29.9%;
+  left: 200px;
   width: unset;
 }
 
@@ -2205,7 +2201,7 @@ body {
 .card-offer {
   padding: 20px;
   margin-bottom: 20px;
-  height: 250px;
+  min-height: 200px;
 }
 
 .card-offer:hover {
@@ -2213,6 +2209,20 @@ body {
   box-shadow: 0px 3px 15px #0000001A;
   border-radius: 30px;
   opacity: 1;
+ cursor: pointer;
+}
+
+.card-offer:hover .btn-default {
+  color: #89BC47 !important;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  background: #89BC47;
+}
+
+.card-offer:hover .btn-default svg {
+  transition-duration: 0.2s;
+  color: #fff !important;
 }
 
 .card-offer .card-image {
@@ -3453,7 +3463,8 @@ body {
 }
 
 .header .header-right .btn.btn-brand-2 {
-  padding: 9px 13px;
+  padding: 6px 17px;
+ max-height: 45px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #fff;
@@ -3495,7 +3506,7 @@ body {
 
 .hero-col-1 {
 
-  padding: 25px;
+  padding: 15px;
   /* background: #002554; */
   position: absolute;
   /* width: 27%; */
@@ -3515,7 +3526,7 @@ body {
 
 
 .hero-col-2 {
-  padding: 20px;
+  padding: 15px;
   background: #002a60;
 
   position: absolute;
@@ -6843,7 +6854,7 @@ footer a {
 .btn-app {
   display: inline-block;
   vertical-align: middle;
-  margin: 20px;
+  margin: 17px;
 }
 
 .btn-app img {
@@ -8093,8 +8104,8 @@ footer a {
 
 .sub-menu {
   opacity: 1;
-  width: 1400px;
-  height: 155px;
+  width: 77%;
+  height: 130px;
   position: relative;
   bottom: 150px;
   z-index: 100;
@@ -11323,7 +11334,7 @@ footer.footer-4 {
   }
 
   .box-info-banner11 {
-    margin-top: -211px;
+    margin-top: 0 !important;
   }
 
   .swiper-group-1.right-pagination .swiper-pagination {
@@ -11367,7 +11378,7 @@ footer.footer-4 {
   .btn-app {
     display: inline-block;
     vertical-align: middle;
-    margin: 13px;
+    margin: 12px;
   }
 
   .btn-app img {
@@ -11380,7 +11391,7 @@ footer.footer-4 {
   }
 
   .box-info-banner11 {
-    margin-top: 22px;
+    margin-top: 17em;
   }
 
   .box-info-banner11 h1 {
@@ -11450,7 +11461,7 @@ footer.footer-4 {
     display: flex;
     flex-direction: column;
     top: 35.9%;
-    left: 100px;
+    left: 31px;
     width: unset;
   }
 
@@ -11465,3 +11476,20 @@ footer.footer-4 {
   }
 
 }
+@media (min-width: 2560px) {
+  .swiper-group-1.right-pagination .swiper-pagination {
+  
+    left: 598px !important;
+
+  }
+}
+
+@media (min-width: 994px) and (max-width: 1455px) {
+  .swiper-group-1.right-pagination .swiper-pagination {
+  
+    left: 50px !important;
+
+  }
+
+  
+  }

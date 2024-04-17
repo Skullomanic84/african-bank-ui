@@ -1,8 +1,6 @@
 //1.FONT
-@import url(https://fonts.bunny.net/css?family=chivo:700|manrope:400,500,700,800|shippori-mincho:700,800);
-$font-manrope: 'Manrope', sans-serif;
-$font-shippori: 'shippori-mincho', sans-serif;
-$font-chivo: 'chivo', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+$font-manrope: "Montserrat", sans-serif;
 $font-3xs: 8px;
 $font-2xs: 10px;
 $font-xs: 12px;
