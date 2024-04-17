@@ -10456,6 +10456,11 @@ footer.footer-4 {
     padding-top: 50px;
   }
 
+  .header .main-menu li a .active {
+    color: #89bc47; 
+    text-decoration: underline;
+}
+
   .box-cover-video-convert .box-info-video {
     padding-left: 20px;
     padding-right: 20px;
@@ -10796,7 +10801,7 @@ footer.footer-4 {
 
 @media (max-width: 575.98px) {
   .input {
-    height: 30px;
+    height: 35px;
 
   }
   .section-800 {
@@ -10823,6 +10828,7 @@ footer.footer-4 {
   }
 
   .cookies-banner {
+    padding: 0px 20px;
     margin-top: 12px;
 }
   
@@ -11306,6 +11312,9 @@ footer.footer-4 {
 @media only screen and (min-width: 2000px) {}
 
 @media only screen and (max-width: 480px) {
+  .header .main-header{
+    padding: 0px 20px;
+  }
 
   .right-icon{
     top: 9px;
@@ -11334,6 +11343,7 @@ footer.footer-4 {
   }
 
  .row-change {
+        margin-top: 70px;
         display: flex !important;
         flex-direction: column-reverse !important;
       }
@@ -11388,10 +11398,17 @@ footer.footer-4 {
   .banner-slide-11 {
     min-height: 660px;
   }
-.row-change {
-        display: flex !important;
-        flex-direction: column-reverse !important;
-      }
+
+  .header .main-header{
+    padding: 0px 20px;
+  }
+
+  .row-change {
+    margin-top: 70px;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
  
   .sub-menu {
     opacity: 1;

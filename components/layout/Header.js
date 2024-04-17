@@ -2,6 +2,8 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { FaCircleUser } from "react-icons/fa6";
+import { useRouter } from 'next/router';
+
 
 const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
     const [scroll, setScroll] = useState(0)
@@ -9,6 +11,10 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
     const [isLanguageToggled, setLanguageToggled] = useState(false);
     const toggleSearchTrueFalse = () => setSearchToggled(!isSearchToggled);
     const toggleLanguageTrueFalse = () => setLanguageToggled(!isLanguageToggled);
+    const router = useRouter();
+    // Function to add 'active' class based on the current pathname
+    const isActive = (pathname) => router.pathname === pathname;
+
     useEffect(() => {
         document.addEventListener("scroll", () => {
             const scrollCheck = window.scrollY > 100
@@ -37,19 +43,21 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                   </Link>
                 </div>
                 <div className="header-nav">
-                  <nav className="nav-main-menu d-none d-xl-block">
-                    <ul className="main-menu">
-                      <li className="">
-                        <Link className="active" href="/">
-                          For me
+                <nav className="nav-main-menu d-none d-xl-block">
+                <ul className="main-menu">
+                    <li className={isActive('/') ? 'active' : ''}>
+                        <Link href="/">
+                            <a className={isActive('/') ? 'active' : ''}>For me</a>
                         </Link>
-                      </li>
+                    </li>
+                    <li className={isActive('/contact') ? 'active' : ''}>
+                        <Link href="/contact">
+                            <a className={isActive('/contact') ? 'active' : ''}>FOR MY BUSINESS</a>
+                        </Link>
+                    </li>
+                </ul>
+            </nav>
 
-                      <li>
-                        <Link href="/contact">FOR MY BUSINESS</Link>
-                      </li>
-                    </ul>
-                  </nav>
                   
                 </div>
 

@@ -1,4 +1,3 @@
-import Image from 'react'
 
 
 const Banner = () => {

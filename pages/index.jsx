@@ -11,6 +11,7 @@ import { IoCloudDownloadOutline } from "react-icons/io5";
 
 const Home = () => {
   const [isOpen, setOpen] = useState(false);
+
   return (
     <>
       <Layout>
@@ -27,8 +28,8 @@ const Home = () => {
         {/* loan calculator */}
         <section className="section-800 pt-50 pb-40 home-loan-calculator bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
-              <div className="col-xl-6 col-lg-6 col-md-6">
+            <div className="row align-items-center row-change">
+              <div className="col-xl-4 col-lg-4 col-md-4">
                 <Calculactor />
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
@@ -44,7 +45,7 @@ const Home = () => {
         {/* loan-products */}
         <section className="section-800 mb-20">
           <div className="container">
-            <div className="row align-items-center row-change">
+            <div className="row align-items-center">
             <div className="col-xl-6 col-lg-6 col-md-6">
                 <img
                   className="d-block"
@@ -141,7 +142,7 @@ const Home = () => {
         {/* download app */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row d-flex align-items-center">
+            <div className="row d-flex align-items-center  row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mb-20">Get the app now</h1>
                 <p className="font-md color-grey-500">
@@ -168,7 +169,7 @@ const Home = () => {
         {/* bank with the best section */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center row-change">
+            <div className="row align-items-center">
             <div className="col-xl-6 col-lg-6 col-md-6">
                 <img
                   className="d-block"
@@ -205,7 +206,7 @@ const Home = () => {
         {/* invest section */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row d-flex align-items-center">
+            <div className="row d-flex align-items-center row-change">
             <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Grow your wealth with African Bank
