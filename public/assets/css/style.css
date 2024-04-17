@@ -1140,16 +1140,17 @@ body {
 }
 
 .btn.btn-brand-1 {
-  padding: 15px 0px;
+  padding: 10px 0;
   width: 180px;
-  height: 50px;
+  height: 40px;
+  border: none;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  border-radius: 30px;
+  border-radius: 50px;
   font-size: 12px;
   font-weight: 700;
-  background: #B6D133 0% 0% no-repeat padding-box;
+  background: #B6D133 0% 0%;
   box-shadow: 2px 5px 10px #00000029;
   transition: transform ease 1000ms;
 }
