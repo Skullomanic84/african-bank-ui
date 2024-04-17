@@ -11483,9 +11483,16 @@ footer.footer-4 {
 
 }
 
-@media (min-width: 1024px) and (max-width: 1440px) {
+@media (min-width: 1024px) {
 
+ .mobile-logo {
+    display: none !important;
+  }
 
+  .desktop-logo {
+    display: block !important;
+  }
+ 
 .sub-menu{
   opacity: 1;
     width: 65%;
