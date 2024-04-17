@@ -50,8 +50,8 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                             <a className={isActive('/') ? 'active' : ''}>For me</a>
                         </Link>
                     </li>
-                    <li className={isActive('/contact') ? 'active' : ''}>
-                        <Link href="/contact">
+                    <li className={isActive('/') ? 'active' : ''}>
+                        <Link href="/">
                             <a className={isActive('/contact') ? 'active' : ''}>FOR MY BUSINESS</a>
                         </Link>
                     </li>
@@ -115,12 +115,12 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                       </svg>
                     </span>
                   </div>
-                  <div className="d-none d-sm-inline-block pr-5">
+                  <div className="d-sm-inline-block pr-5">
                     <Link className="btn btn-brand-1 hzover-up" href="#">
                       Open Account
                     </Link>
                   </div>
-                  <div className="d-none d-sm-inline-block mx-4">
+                  <div className="d-sm-inline-block mx-4">
                     <Link className="btn btn-brand-2 hover-up" href="#">
                       <span class="">
                         <FaCircleUser
