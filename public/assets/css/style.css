@@ -2211,6 +2211,19 @@ body {
  cursor: pointer;
 }
 
+.card-offer:hover .btn-default {
+  color: #89BC47 !important;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  background: #89BC47;
+}
+
+.card-offer:hover .btn-default svg {
+  transition-duration: 0.2s;
+  color: #fff !important;
+}
+
 .card-offer .card-image {
   height: 75px;
   margin-bottom: 15px;
