@@ -11315,7 +11315,7 @@ footer.footer-4 {
   }
 
   .box-info-banner11 {
-    margin-top: -211px;
+    margin-top: 0 !important;
   }
 
   .swiper-group-1.right-pagination .swiper-pagination {
@@ -11372,7 +11372,7 @@ footer.footer-4 {
   }
 
   .box-info-banner11 {
-    margin-top: 22px;
+    margin-top: 17em;
   }
 
   .box-info-banner11 h1 {
@@ -11442,7 +11442,7 @@ footer.footer-4 {
     display: flex;
     flex-direction: column;
     top: 35.9%;
-    left: 100px;
+    left: 31px;
     width: unset;
   }
 
@@ -11457,3 +11457,20 @@ footer.footer-4 {
   }
 
 }
+@media (min-width: 2560px) {
+  .swiper-group-1.right-pagination .swiper-pagination {
+  
+    left: 598px !important;
+
+  }
+}
+
+@media (min-width: 994px) and (max-width: 1455px) {
+  .swiper-group-1.right-pagination .swiper-pagination {
+  
+    left: 50px !important;
+
+  }
+
+  
+  }
