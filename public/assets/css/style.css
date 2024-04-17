@@ -700,15 +700,16 @@ a:hover {
   color: #06D6A0;
 }
 
-.mobile-logo {
-    display: none !important;
+
+
+@media (min-width: 1400px) {
+ .mobile-logo {
+    display: none;
   }
 
   .desktop-logo {
-    display: block !important;
+    display: block;
   }
-
-@media (min-width: 1400px) {
 
   .container,
   .container-lg,
