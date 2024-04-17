@@ -29,7 +29,7 @@ const Home = () => {
         <section className="section-800 pt-50 pb-40 home-loan-calculator bg-grey-60">
           <div className="container">
             <div className="row align-items-center row-change">
-              <div className="col-xl-4 col-lg-4 col-md-4">
+              <div className="col-xl-6 col-lg-6 col-md-6">
                 <Calculactor />
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">

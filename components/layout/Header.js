@@ -29,10 +29,18 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
             <div className="main-header">
               <div className="header-left">
                 <div className="header-logo">
-                  <Link className="d-flex" href="/">
+                    {/* Desktop Logo */}
+                  <Link className="d-flex desktop-logo" href="/">
                     <img
                       alt="African Bank"
                       src="assets/imgs/new-site/Logo.png"
+                    />
+                  </Link>
+                    {/* mobile Logo */}
+                    <Link className="d-flex mobile-logo" href="/">
+                    <img
+                      alt="African Bank"
+                      src="assets/imgs/new-site/logo-two.png"
                     />
                   </Link>
                 </div>
@@ -107,12 +115,12 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                       </svg>
                     </span>
                   </div>
-                  <div className="d-none d-sm-inline-block pr-5">
-                    <Link className="btn btn-brand-1 hover-up" href="#">
+                  <div className="d-sm-inline-block pr-5">
+                    <Link className="btn smbtn btn-brand-1 hover-up" href="#">
                       Open Account
                     </Link>
                   </div>
-                  <div className="d-none d-sm-inline-block mx-4">
+                  <div className="d-sm-inline-block mx-4">
                     <Link className="btn btn-brand-2 hover-up" href="#">
                       <span class="">
                         <FaCircleUser
