@@ -132,7 +132,9 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                     </Link>
                   </div>
 
-                  <div
+                 
+                </div>
+                <div
                     className={`burger-icon burger-icon-white ${
                       openClass && "burger-close"
                     }`}
@@ -145,7 +147,6 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                     <span className="burger-icon-mid" />
                     <span className="burger-icon-bottom" />
                   </div>
-                </div>
             </div>
             </div>
           </div>
