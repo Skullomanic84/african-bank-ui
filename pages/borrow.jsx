@@ -17,7 +17,7 @@ const Borrow = () => {
         {/* open an account */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Effortless Online Banking registration
@@ -58,7 +58,7 @@ const Borrow = () => {
         {/* loan calculator */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <img
                   className="d-block"
@@ -75,7 +75,7 @@ const Borrow = () => {
 
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mb-20">
                   Quickly secure your Personal Loan
@@ -119,7 +119,7 @@ const Borrow = () => {
         {/* Over draft */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center flex-row-reverse row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Secure a Personal Loan today
@@ -211,13 +211,13 @@ const Borrow = () => {
                 </p>
 
                 <div className="combo-btn">
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column1">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column1">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
                       <BsChevronRight className="right-icon"/>
@@ -239,7 +239,7 @@ const Borrow = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center flex-row-reverse row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Unlock exclusive value-added deals
@@ -256,13 +256,13 @@ const Borrow = () => {
                   and enjoy our value-added deals.
                 </p>
                 <div className="combo-btn">
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column1" >
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column2">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
                       <BsChevronRight className="right-icon"/>
@@ -284,7 +284,7 @@ const Borrow = () => {
         {/* discover the right credit card */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Get your free credit report from African Bank
@@ -304,13 +304,13 @@ const Borrow = () => {
                 </p>
 
                 <div className="combo-btn">
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column1">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column2">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
                       <BsChevronRight className="right-icon"/>
@@ -332,7 +332,7 @@ const Borrow = () => {
         {/* download app */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center flex-row-reverse row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mb-20">Get the app now</h1>
                 <p className="font-md color-grey-500">

@@ -16,7 +16,7 @@ const PersonalLoan = () => {
           {/* open an account */}
           <section className="section-800">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row align-items-center row-change">
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <h1 className="color-brand-1 mt-15 mb-20">
                     Reach your goals with a Personal Loan from African Bank
@@ -46,7 +46,7 @@ const PersonalLoan = () => {
           {/* discover the right credit card */}
           <section className="section-800">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row align-items-center row-change">
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <h1 className="color-brand-1 mt-15 mb-20">
                     Apply for a Personal Loan in Minutes
@@ -238,7 +238,7 @@ const PersonalLoan = () => {
           {/* Over draft */}
           <section className="section-800">
             <div className="container">
-              <div className="row align-items-center flex-row-reverse">
+              <div className="row align-items-center row-change flex-row-reverse">
                 <div className="col-xl-7 col-lg-7 col-md-7">
                   <h1 className="color-brand-1 mt-15 mb-20">
                     Credit Life Insurance
@@ -440,7 +440,7 @@ const PersonalLoan = () => {
           {/* faq */}
           <section className="section-800">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row align-items-center row-change">
                 <div className="col-xl-12 col-lg-12 col-md-12">
                   <h1 className="color-brand-1 mt-15 mb-20 text-center">
                     Link innovative pockets to your MyWORLD account
@@ -455,7 +455,7 @@ const PersonalLoan = () => {
           {/* discover the right credit card */}
           <section className="section-800">
             <div className="container">
-              <div className="row align-items-center">
+              <div className="row align-items-center row-change">
                 <div className="col-xl-6 col-lg-6 col-md-6">
                   <h1 className="color-brand-1 mt-15 mb-20">
                     Other Types Of Loans That You Can Get From African Bank

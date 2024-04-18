@@ -16,7 +16,7 @@ const Bank = () => {
         {/* open an account */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Achieve your dreams with a tailored loan
@@ -52,7 +52,7 @@ const Bank = () => {
         {/* download app */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center flex-row-reverse row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mb-20">Get the app now</h1>
                 <p className="font-md color-grey-500">
@@ -79,7 +79,7 @@ const Bank = () => {
         {/* Over draft */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Activate your MyWORLD Overdraft
@@ -131,7 +131,7 @@ const Bank = () => {
         {/* discover the right credit card */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center flex-row-reverse row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Discover the right credit card for your lifestyle
@@ -151,13 +151,13 @@ const Bank = () => {
                   interest on any positive balance.
                 </p>
                 <div className="combo-btn">
-                  <div className="mt-50 text-start">
-                    <Link className="btn btn-brand-1 hover-up " href="#">
+                  <div className="mt-50 text-start column1">
+                    <Link className="btn  btn-brand-1 hover-up " href="#">
                       APPLY NOW
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column2">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
                       <BsChevronRight className="right-icon"/>
@@ -178,7 +178,7 @@ const Bank = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   All you need to know about the African Bank Credit Card
@@ -209,13 +209,13 @@ const Bank = () => {
                 </p>
 
                 <div className="combo-btn">
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column1">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column2">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
                       <BsChevronRight className="right-icon"/>
@@ -236,7 +236,7 @@ const Bank = () => {
         {/* discover the right credit card */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center flex-row-reverse row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Applying for a Credit Card: Your checklist
@@ -302,13 +302,13 @@ const Bank = () => {
                   </ul>
                 </div>
                 <div className="combo-btn">
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column1">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column2">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
                       <BsChevronRight className="right-icon"/>

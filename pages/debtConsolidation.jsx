@@ -14,7 +14,7 @@ const DebtConsolidation = () => {
         {/* open an account */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                 Combine up to 5 loans in 1
@@ -41,7 +41,7 @@ const DebtConsolidation = () => {
                 {/* download app */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mb-20">Get the app now</h1>
                 <p className="font-md color-grey-500">
@@ -68,7 +68,7 @@ const DebtConsolidation = () => {
         {/* Over draft */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                 How An Online Consolidation Loan Application Works.
@@ -96,7 +96,7 @@ const DebtConsolidation = () => {
         {/* faq */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">
                   Open your MyWorld Overdraft now
@@ -110,7 +110,7 @@ const DebtConsolidation = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                     Other Types of Loans that you can get from African Bank.

@@ -14,7 +14,7 @@ const MoneySend = () => {
         {/* open an account */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                 Introducing ShareMoney – Send Cash to any Cellphone
@@ -41,7 +41,7 @@ const MoneySend = () => {
     {/* discover the right credit card */}
     <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                 What is ShareMoney?
@@ -76,7 +76,7 @@ const MoneySend = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                 How Do I Use Sharemoney ?
@@ -121,7 +121,7 @@ const MoneySend = () => {
         </section>
         <div className="section-800">
                     <div className="container">
-                        <div className="row align-items-center">
+                        <div className="row align-items-center row-change">
                             <div className="col-12">
                             <h1 className="color-brand-1 mt-15 mb-20">
                             Which retailer can I use to withdraw the<br /> ShareMoney cash?
@@ -160,7 +160,7 @@ const MoneySend = () => {
         {/* download app */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mb-20">Get the app now</h1>
                 <p className="font-md color-grey-500">

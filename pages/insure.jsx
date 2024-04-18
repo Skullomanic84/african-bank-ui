@@ -15,7 +15,7 @@ const Insure = () => {
         {/* open an account */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                 Why Insure with African Bank?
@@ -45,7 +45,7 @@ const Insure = () => {
          {/* discover the right credit card */}
          <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Funeral Plan
@@ -336,7 +336,7 @@ const Insure = () => {
         {/* discover the right credit card */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 text-center mt-15 mb-20">
                 Premiums Calculator
@@ -349,7 +349,7 @@ const Insure = () => {
         {/* Over draft */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                 Documents You Will Need When Claiming
@@ -468,7 +468,7 @@ const Insure = () => {
         {/* faq */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">
                 FAQ’s
@@ -483,7 +483,7 @@ const Insure = () => {
         {/* discover the right credit card */}
         <section className="section-800 ">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   More About Notice Deposit
@@ -532,7 +532,7 @@ const Insure = () => {
         {/* discover the right credit card */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                 Credit Life Insurance
@@ -570,7 +570,7 @@ const Insure = () => {
     {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                 Employed Credit Customers Will Get Cover For
@@ -627,7 +627,7 @@ const Insure = () => {
         {/* faq */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">
                     FAQ’s

@@ -16,7 +16,7 @@ const Bank = () => {
         {/* open an account */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Save with African Bank
@@ -53,7 +53,7 @@ const Bank = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Open a MyWORLD account today
@@ -91,7 +91,7 @@ const Bank = () => {
         {/* Over draft */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   MyWORLD: Made to share
@@ -126,7 +126,7 @@ const Bank = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Efficient banking made simple
@@ -165,7 +165,7 @@ const Bank = () => {
         {/* open an account */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Unlock savings opportunities
@@ -202,7 +202,7 @@ const Bank = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">How MyWORLD works</h1>
                 <p className="font-md color-brand-1">
@@ -450,7 +450,7 @@ const Bank = () => {
         {/* faq */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">
                   Link innovative pockets to your MyWORLD account
@@ -464,7 +464,7 @@ const Bank = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Discovering Notice Deposits
@@ -515,7 +515,7 @@ const Bank = () => {
         {/* discover the right credit card */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">Ways to bank</h1>
                 <p className="font-md color-brand-1">
@@ -701,7 +701,7 @@ const Bank = () => {
         {/* download app */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mb-20">Get the app now</h1>
                 <p className="font-md color-grey-500">

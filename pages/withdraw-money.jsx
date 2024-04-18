@@ -13,7 +13,7 @@ const WithdrawMoney = () => {
         {/* open an account */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                 How to Withdraw Money from your African Bank Account
@@ -39,7 +39,7 @@ const WithdrawMoney = () => {
         {/* faq */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">
                 How much will I be charged to withdraw cash<br/> from my MwWORLD bank account?
@@ -52,7 +52,7 @@ const WithdrawMoney = () => {
 
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">
                 How much will I be charged to withdraw cash<br/> from my MwWORLD bank account?
@@ -66,7 +66,7 @@ const WithdrawMoney = () => {
     {/* discover the right credit card */}
     <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                     Where can I see my Pay@ number?
@@ -169,7 +169,7 @@ const WithdrawMoney = () => {
         {/* Over draft */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                 How Much Can I Deposit At A Time Using My Pay@ Number?
@@ -193,7 +193,7 @@ const WithdrawMoney = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                 How much can I withdraw at a time?
@@ -322,7 +322,7 @@ const WithdrawMoney = () => {
         {/* download app */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mb-20">Get the app now</h1>
                 <p className="font-md color-grey-500">

@@ -14,7 +14,7 @@ const CreditCard = () => {
         {/* open an account */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Get the Credit Card that suits your Lifestyle
@@ -46,7 +46,7 @@ const CreditCard = () => {
         {/* download app */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change row-change flex-row-reverse ">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mb-20">Get the app now</h1>
                 <p className="font-md color-grey-500">
@@ -256,7 +256,7 @@ const CreditCard = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   A Few Safety Tips When Using Your African Bank Black Credit
@@ -355,7 +355,7 @@ const CreditCard = () => {
         {/* Over draft */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   For Lost Or Stolen Cards
@@ -409,7 +409,7 @@ const CreditCard = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Features And Benefits Of The Black Credit Card
@@ -461,7 +461,7 @@ const CreditCard = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   The Advantages Of Using Our Banking App Or Online Banking
@@ -658,7 +658,7 @@ const CreditCard = () => {
         </section>
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">
                   FAQ&apos;S
@@ -671,7 +671,7 @@ const CreditCard = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Access Accumulator Account
@@ -741,7 +741,7 @@ const CreditCard = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Tax-Free Investments:
@@ -765,7 +765,7 @@ const CreditCard = () => {
         {/* investment calculator */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   More about tax-free investments
@@ -989,7 +989,7 @@ const CreditCard = () => {
         {/* faq */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">
                   Open your MyWorld Overdraft now

@@ -16,7 +16,7 @@ const Invest = () => {
         {/* open an account */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Invest in your future
@@ -50,7 +50,7 @@ const Invest = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Fixed Deposit Account
@@ -223,7 +223,7 @@ const Invest = () => {
         {/* Over draft */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   More About African Bank&apos;s Fixed Deposit Account
@@ -312,7 +312,7 @@ const Invest = () => {
         {/* faq */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">
                   Open your MyWorld Overdraft now
@@ -326,7 +326,7 @@ const Invest = () => {
         {/* discover the right credit card */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Notice Deposit Account
@@ -337,13 +337,13 @@ const Invest = () => {
                   giving 7-, 32-, or 90-days’ notice.
                 </p>
                 <div className="combo-btn">
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column1">
                     <Link className="btn btn-brand-1 hover-up " href="#">
                       APPLY NOW
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
-                  <div className="mt-50 text-start">
+                  <div className="mt-50 text-start column2">
                     <Link className="btn btn-brand-1 hover-up" href="#">
                       TEL ME MORE
                       <BsChevronRight className="right-icon"/>
@@ -364,7 +364,7 @@ const Invest = () => {
         {/* discover the right credit card */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   More About Notice Deposit
@@ -417,7 +417,7 @@ const Invest = () => {
         </section>
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">
                   FAQ&apos;S
@@ -430,7 +430,7 @@ const Invest = () => {
         {/* discover the right credit card */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Access Accumulator Account
@@ -499,7 +499,7 @@ const Invest = () => {
         {/* faq */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">
                   Open your MyWorld Overdraft now
@@ -512,7 +512,7 @@ const Invest = () => {
         {/* discover the right credit card */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Tax-Free Investments:
@@ -536,7 +536,7 @@ const Invest = () => {
         {/* investment calculator */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center flex-row-reverse">
+            <div className="row align-items-center row-change flex-row-reverse">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   More about tax-free investments
@@ -760,7 +760,7 @@ const Invest = () => {
         {/* download app */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mb-20">Get the app now</h1>
                 <p className="font-md color-grey-500">
@@ -787,7 +787,7 @@ const Invest = () => {
         {/* faq */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center row-change">
               <div className="col-xl-12 col-lg-12 col-md-12">
                 <h1 className="color-brand-1 mt-15 mb-20 text-center">
                   Open your MyWorld Overdraft now

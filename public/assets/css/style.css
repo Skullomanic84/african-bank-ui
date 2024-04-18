@@ -10943,6 +10943,21 @@ footer.footer-4 {
 }
 
 @media (max-width: 575.98px) {
+
+  .combo-btn{
+    display: flex;      
+    flex-direction: row; 
+    gap:unset;
+  }
+
+  .combo-btn .column1, .column2 {
+    flex: 1 1;
+    padding: 3px;
+    box-sizing: border-box;
+
+}
+
+
   .box-search-top .form-search-top {
     right: -167px
   }
