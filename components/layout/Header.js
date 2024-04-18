@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { FaCircleUser } from "react-icons/fa6";
+import { useRouter } from 'next/router';
 
 const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
     const [scroll, setScroll] = useState(0)
@@ -9,11 +10,13 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
     const [isLanguageToggled, setLanguageToggled] = useState(false);
     const toggleSearchTrueFalse = () => setSearchToggled(!isSearchToggled);
     const toggleLanguageTrueFalse = () => setLanguageToggled(!isLanguageToggled);
+    const router = useRouter();
     useEffect(() => {
         document.addEventListener("scroll", () => {
             const scrollCheck = window.scrollY > 100
             if (scrollCheck !== scroll) {
-                setScroll(scrollCheck)
+              console.log(router.pathname);
+                setScroll(scrollCheck);
             }
         })
     })
@@ -47,8 +50,8 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                 <div className="header-nav">
                   <nav className="nav-main-menu d-none d-xl-block">
                     <ul className="main-menu">
-                      <li className="">
-                        <Link className="active" href="/">
+                      <li className={` ${router.pathname === "/" ? "active" : ""}`}>
+                        <Link className={  `forMe ${router.pathname === "/" ? "active" : ""}`} href="/">
                           For me
                         </Link>
                       </li>
