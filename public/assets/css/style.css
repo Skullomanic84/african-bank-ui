@@ -10558,6 +10558,14 @@ footer.footer-4 {
   .header .header-right .smbtn.btn-brand-1 {
     white-space: nowrap;
     padding: 10px 5px;
+    height: 34px;
+    font-size: 8px;
+  }
+
+  .header .header-right .btn.btn-brand-2 {
+    white-space: nowrap !important;
+    padding: 3px 6px;
+    font-size: 8px;
   }
 
   .header .burger-icon {
