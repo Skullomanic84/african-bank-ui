@@ -726,12 +726,21 @@ a:hover {
   .breadcrumb-item a {
     color: #112768;
     text-decoration: none;
+    
   }
-  .last {
-    margin-right: 5px; /* Adjust spacing as necessary */
+
+
+
+  .last::first-letter {
+    text-transform: uppercase; 
+  }
+  .last{
+    margin-right: 5px; 
     color: #112768;
     font: normal normal 600 15px/37px Montserrat;
-  }
+}
+
+
   .breadcrumbs-separator {
     margin: 0 5px;
     color: #6c757d; /* Chevron color */
@@ -10536,6 +10545,9 @@ footer.footer-4 {
 }
 
 @media (max-width: 767.98px) {
+  .calculator-width {
+    width: 100%;
+}
 
   .breadcrumb{
     top: 16px;
@@ -10897,7 +10909,7 @@ footer.footer-4 {
 
   .cookies-banner {
     padding: 4px 20px;
-    margin-top: 12px;
+    margin-top: 20px;
 }
   
   .swiper-button-next,
