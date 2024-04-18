@@ -4697,6 +4697,21 @@ footer {
 }
 
 
+footer .social-content .icon-socials {
+  width: 48px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #002b60;
+  border: solid 1px #88bc47;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.03);
+  color: #88bc47;
+  padding: 15px;
+  margin-left: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+
 
 #scrollUp {
   width: 56px;
@@ -10583,6 +10598,9 @@ footer.footer-4 {
 }
 
 @media (max-width: 767.98px) {
+
+
+
   .user-icon {
     height: 25px !important;
     width: 25px !important;
@@ -10599,7 +10617,7 @@ footer.footer-4 {
 
   .header .header-right .smbtn.btn-brand-1 {
     white-space: nowrap;
-    padding: 6px 5px;
+    padding: 5px 5px;
     height: 28px;
     font-size: 7px;
   }
@@ -10927,6 +10945,9 @@ footer.footer-4 {
 }
 
 @media (max-width: 575.98px) {
+  .font-md {
+    font-size: 14px !important;
+}
   .footer-item{
     text-align: center;
   }
