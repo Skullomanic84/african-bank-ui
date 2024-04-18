@@ -10599,8 +10599,6 @@ footer.footer-4 {
 
 @media (max-width: 767.98px) {
 
-
-
   .user-icon {
     height: 25px !important;
     width: 25px !important;
@@ -10945,6 +10943,9 @@ footer.footer-4 {
 }
 
 @media (max-width: 575.98px) {
+  .box-search-top .form-search-top {
+    right: -167px
+  }
   .font-md {
     font-size: 14px !important;
 }
