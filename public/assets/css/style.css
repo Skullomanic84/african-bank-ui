@@ -1158,6 +1158,7 @@ body {
   padding-left: 10px;
 }
 .center-banner{
+  white-space: nowrap;
   top: 14px;
   position: relative;
 }
@@ -10216,6 +10217,41 @@ footer.footer-4 {
 }
 
 @media (max-width: 991.98px) {
+  .header {
+    padding: 0px 0;
+}
+
+  .user-icon {
+    height: 25px !important;
+    width: 25px !important;
+  }
+  .calculator-width {
+    width: 100%;
+}
+
+  .breadcrumb{
+    top: 16px;
+    padding-top: 20px !important;
+    padding: 0px 16px;
+  }
+
+  .header .header-right .smbtn.btn-brand-1 {
+    white-space: nowrap;
+    padding: 6px 5px;
+    height: 28px;
+    font-size: 7px;
+  }
+
+  .header .header-right .btn.btn-brand-2 {
+    white-space: nowrap !important;
+    padding: 3px 6px;
+    font-size: 8px;
+  }
+
+  .header .burger-icon {
+    display: block;
+  }
+
   .box-container-sw .box-swiper {
     padding-left: 30px;
   }
@@ -10545,6 +10581,10 @@ footer.footer-4 {
 }
 
 @media (max-width: 767.98px) {
+  .user-icon {
+    height: 25px !important;
+    width: 25px !important;
+  }
   .calculator-width {
     width: 100%;
 }
@@ -10557,9 +10597,9 @@ footer.footer-4 {
 
   .header .header-right .smbtn.btn-brand-1 {
     white-space: nowrap;
-    padding: 10px 5px;
-    height: 34px;
-    font-size: 8px;
+    padding: 6px 5px;
+    height: 28px;
+    font-size: 7px;
   }
 
   .header .header-right .btn.btn-brand-2 {
@@ -10912,6 +10952,11 @@ footer.footer-4 {
 }
   .center-banner{
     top: 20px;
+    position: relative;
+  }
+
+  img .center-banner{
+    top: 15px !important;
     position: relative;
   }
 
@@ -11423,11 +11468,17 @@ footer.footer-4 {
     max-width: 380px;
   }
   .fw-bold {
-    font-size: inherit;
-    font-weight: 500 !important;
+    font-size: 12px;
+    font-weight: 550 !important;
 }
   .center-banner{
     top: 20px;
+    position: relative;
+
+  }
+
+  img.center-banner{
+    top: 15px !important;
     position: relative;
   }
 
