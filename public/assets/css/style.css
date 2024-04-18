@@ -3464,9 +3464,9 @@ body {
   float: none;
 }
 
-/* .header .burger-icon {
+.header .burger-icon {
   display: none;
-} */
+}
 .header .main-menu {
   padding-top: 3px;
 }
@@ -9975,9 +9975,6 @@ footer.footer-4 {
     display: inline-block;
   }
 
-  .header .burger-icon {
-    display: block;
-  }
 
   .header .main-header .header-left .header-right {
     width: 100%;
@@ -10505,6 +10502,9 @@ footer.footer-4 {
 }
 
 @media (max-width: 767.98px) {
+  .header .burger-icon {
+    display: block;
+  }
   .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-top .mobile-header-logo a img {
     max-width: 140px;
   }
