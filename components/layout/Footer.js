@@ -36,7 +36,7 @@ const Footer = () => {
           <div className="footer-1">
             <div className="container">
               <div className="row">
-                <div className="col-lg-3 col-md-3 mb-30">
+                <div className="footer-item col-lg-3 col-md-3 mb-30">
                   <h5 className="mb-10">Legal</h5>
                   <ul className="menu-footer">
                     <li>
@@ -63,7 +63,7 @@ const Footer = () => {
                   </ul>
                 </div>
 
-                <div className="col-lg-3 col-md-3 mb-30">
+                <div className="footer-item col-lg-3 col-md-3 mb-30">
                   <h5 className="mb-10">My African Bank</h5>
                   <ul className="menu-footer">
                     <li>
@@ -80,7 +80,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-lg-3 col-md-3 mb-30">
+                <div className="footer-item col-lg-3 col-md-3 mb-30">
                   <h5 className="mb-10">Complaints and Compliments</h5>
                   <ul className="menu-footer">
                     <li>
@@ -88,7 +88,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-lg-3 col-md-3 mb-30">
+                <div className="footer-item col-lg-3 col-md-3 mb-30">
                   <h5 className="mb-10">Ethics and Fraud Hotline</h5>
                   <ul className="menu-footer">
                     <li>

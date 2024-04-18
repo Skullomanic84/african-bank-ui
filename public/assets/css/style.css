@@ -4696,6 +4696,8 @@ footer {
   text-decoration: none;
 }
 
+
+
 #scrollUp {
   width: 56px;
   height: 56px;
@@ -10925,6 +10927,9 @@ footer.footer-4 {
 }
 
 @media (max-width: 575.98px) {
+  .footer-item{
+    text-align: center;
+  }
   .header {
     padding: 0px 0;
   }
@@ -11443,6 +11448,10 @@ footer.footer-4 {
 }
 
 @media only screen and (max-width: 480px) {
+
+  .footer-item{
+    text-align: center;
+  }
 
    .row-change {
     margin-top: 70px;
