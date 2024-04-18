@@ -151,7 +151,7 @@ const Home = () => {
                 </p>
                 <div className="mt-50 text-start">
                   <Link className="btn btn-brand-1 hover-up" href="#">
-                    Download Now
+                   <p  className="downloadbtn">Download Now</p> 
                     <IoCloudDownloadOutline className="right-icon"/>
                   </Link>
                 </div>

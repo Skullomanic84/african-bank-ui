@@ -285,42 +285,42 @@ h6 {
 h1 {
   font-weight: 700;
   font-size: 48px;
-  line-height: 1.5;
+  line-height: 1.2;
   font-family: "Montserrat", sans-serif !important;
 }
 
 h2 {
   font-weight: 700;
   font-size: 35px;
-  line-height: 1.5;
+  line-height: 1.2;
   font-family: "Montserrat", sans-serif !important;
 }
 
 h3 {
   font-weight: 700;
   font-size: 32px;
-  line-height: 1.5;
+  line-height: 1.2;
   font-family: "Montserrat", sans-serif !important;
 }
 
 h4 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.2;
   font-family: "Montserrat", sans-serif !important;
 }
 
 h5 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.2;
   font-family: "Montserrat", sans-serif !important;
 }
 
 h6 {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.2;
   font-family: "Montserrat", sans-serif !important;
 }
 
@@ -429,42 +429,42 @@ h6 {
 .font-3xl {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 30px;
 }
 
 .font-2xl {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 24px;
 }
 
 .font-xl {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 20px;
 }
 
 .font-lg {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 18px;
 }
 
 .font-md {
   font-weight: 400 !important;
   font-family: "Montserrat", sans-serif !important;
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 18px !important;
 }
 
 .font-sm {
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
+  line-height: 1.2;
   font-size: 16px;
 }
 
@@ -549,6 +549,10 @@ h6 {
 .form-label{
   margin-bottom: .5rem;
 margin-top: 25px;
+}
+
+.downloadbtn{
+  padding-right:30px;
 }
 
 
@@ -4865,8 +4869,8 @@ footer a {
 .socials-icons {
   display: inline-block;
   margin-right: 8px;
-  height: 21px;
-  width: 21px;
+  /* height: 21px;
+  width: 21px; */
   color: #B6D133;
   transition-duration: 0.2s;
   vertical-align: middle;
@@ -10304,7 +10308,7 @@ footer.footer-4 {
 
   h1 {
     font-size: 28px !important;
-    line-height: 1.5;
+    line-height: 1.2;
   }
 
   h2 {
@@ -10599,6 +10603,14 @@ footer.footer-4 {
 
 @media (max-width: 767.98px) {
 
+  .btn-app{
+    text-align: -webkit-center;
+  }
+
+  .text-lg-end{
+      margin-top:15px;
+  }
+
   .user-icon {
     height: 25px !important;
     width: 25px !important;
@@ -10615,7 +10627,7 @@ footer.footer-4 {
 
   .header .header-right .smbtn.btn-brand-1 {
     white-space: nowrap;
-    padding: 5px 5px;
+    padding: 5px 6px;
     height: 28px;
     font-size: 7px;
   }
