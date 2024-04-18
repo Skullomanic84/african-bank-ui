@@ -9916,6 +9916,10 @@ footer.footer-4 {
   font-size: 21px;
 }
 
+.btn-app{
+  text-align: -webkit-center;
+}
+
 @media (max-width: 2000px) {
   .calculator-width {
     width: 75%;
@@ -10603,9 +10607,7 @@ footer.footer-4 {
 
 @media (max-width: 767.98px) {
 
-  .btn-app{
-    text-align: -webkit-center;
-  }
+
 
   .text-lg-end{
       margin-top:15px;
