@@ -11000,6 +11000,10 @@ footer.footer-4 {
 
 }
 
+.swiper-group-1.right-pagination .swiper-pagination {
+  top: 6.9% !important;
+}
+
 
   .box-search-top .form-search-top {
     right: -167px
@@ -11561,8 +11565,9 @@ footer.footer-4 {
   }
 
   .swiper-group-1.right-pagination .swiper-pagination {
-    top: 76px;
+    top: 12.9% !important;
   }
+
 
   .footer-item{
     text-align: center;
