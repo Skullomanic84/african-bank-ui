@@ -3,8 +3,8 @@ import SwiperCore, { Autoplay, Navigation,Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
 import { SlArrowRight } from "react-icons/sl";
-import  Submenu  from "../../components/elements/submenu";
-import BannerAbs from "../../components/elements/bannerAbs";
+import Submenu from '../../components/elements/Submenu';
+import BannerAbs from '../../components/elements/BannerAbs';
 SwiperCore.use([Autoplay, Navigation,Pagination]);
 
 const HeroSlider = () => {
@@ -41,7 +41,7 @@ const HeroSlider = () => {
             nextEl: ".swiper-button-next-style-3",
           }}
 
-          
+
           className="swiper-wrapper"
         >
           <SwiperSlide className="swiper-slide">
