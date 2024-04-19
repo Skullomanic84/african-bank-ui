@@ -10621,7 +10621,7 @@ footer.footer-4 {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   /* .main{
     margin: 0px 20px;
   } */
@@ -10639,7 +10639,7 @@ footer.footer-4 {
     right: 15px;
   }
   .text-lg-end{
-      margin-top:15px;
+      margin-top:15px !important;
   }
 
   .user-icon {
