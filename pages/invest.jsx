@@ -338,14 +338,14 @@ const Invest = () => {
                 </p>
                 <div className="combo-btn">
                   <div className="mt-50 text-start column1">
-                    <Link className="btn btn-brand-1 hover-up " href="#">
-                      APPLY NOW
+                    <Link className="btn  btn-brand-1 hover-up " href="#">
+                     <p className="combo-btn-text">APPLY NOW</p> 
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                   <div className="mt-50 text-start column2">
                     <Link className="btn btn-brand-1 hover-up" href="#">
-                      TEL ME MORE
+                      <p className="combo-btn-text">TEL ME MORE</p> 
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>

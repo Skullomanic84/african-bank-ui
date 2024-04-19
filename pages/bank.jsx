@@ -79,7 +79,7 @@ const Bank = () => {
         {/* Over draft */}
         <section className="section-800 bg-grey-60">
           <div className="container">
-            <div className="row align-items-center row-change">
+            <div className="row align-items-center">
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
                   Activate your MyWORLD Overdraft
@@ -153,13 +153,13 @@ const Bank = () => {
                 <div className="combo-btn">
                   <div className="mt-50 text-start column1">
                     <Link className="btn  btn-brand-1 hover-up " href="#">
-                      APPLY NOW
+                     <p className="combo-btn-text">APPLY NOW</p> 
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                   <div className="mt-50 text-start column2">
                     <Link className="btn btn-brand-1 hover-up" href="#">
-                      TEL ME MORE
+                      <p className="combo-btn-text">TEL ME MORE</p> 
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
@@ -210,14 +210,14 @@ const Bank = () => {
 
                 <div className="combo-btn">
                   <div className="mt-50 text-start column1">
-                    <Link className="btn btn-brand-1 hover-up " href="#">
-                      APPLY NOW
+                    <Link className="btn  btn-brand-1 hover-up " href="#">
+                     <p className="combo-btn-text">APPLY NOW</p> 
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                   <div className="mt-50 text-start column2">
                     <Link className="btn btn-brand-1 hover-up" href="#">
-                      TEL ME MORE
+                      <p className="combo-btn-text">TEL ME MORE</p> 
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
@@ -303,14 +303,14 @@ const Bank = () => {
                 </div>
                 <div className="combo-btn">
                   <div className="mt-50 text-start column1">
-                    <Link className="btn btn-brand-1 hover-up " href="#">
-                      APPLY NOW
+                    <Link className="btn  btn-brand-1 hover-up " href="#">
+                     <p className="combo-btn-text">APPLY NOW</p> 
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>
                   <div className="mt-50 text-start column2">
                     <Link className="btn btn-brand-1 hover-up" href="#">
-                      TEL ME MORE
+                      <p className="combo-btn-text">TEL ME MORE</p> 
                       <BsChevronRight className="right-icon"/>
                     </Link>
                   </div>

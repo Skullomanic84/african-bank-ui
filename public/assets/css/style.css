@@ -127,6 +127,10 @@ main {
   clear: both;
 }
 
+#openChatButton {
+  display: none;
+}
+
 thead {
   font-weight: 600;
 }
@@ -10606,9 +10610,14 @@ footer.footer-4 {
 }
 
 @media (max-width: 767.98px) {
-
-
-
+  .main{
+    margin: 0px 20px;
+  }
+  .combo-btn-text{
+    position: relative;
+    bottom: 3px;
+    right: 15px;
+  }
   .text-lg-end{
       margin-top:15px;
   }
@@ -11018,7 +11027,7 @@ footer.footer-4 {
 
   .cookies-banner {
     padding: 4px 20px;
-    margin-top: 20px;
+    margin-top:0px 20px;
 }
   
   .swiper-button-next,

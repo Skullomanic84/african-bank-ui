@@ -169,7 +169,7 @@ const Home = () => {
         {/* bank with the best section */}
         <section className="section-800">
           <div className="container">
-            <div className="row align-items-center">
+            <div className="row align-items-center " >
             <div className="col-xl-6 col-lg-6 col-md-6">
                 <img
                   className="d-block"
