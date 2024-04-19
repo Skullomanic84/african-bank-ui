@@ -9912,6 +9912,17 @@ footer.footer-4 {
   }
 }
 
+.btn-brand-banner-business-banking {
+  background: #b6d133 0 0 !important;
+  padding: 15px 24px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+}
 .right-icon {
   top: 10px;
   right: 14px;
@@ -10613,6 +10624,14 @@ footer.footer-4 {
   /* .main{
     margin: 0px 20px;
   } */
+  .box-info-banner11{
+    top:50px
+  }
+
+
+  .swiper-group-1.right-pagination .swiper-pagination {
+    top: 76px;
+  }
   .combo-btn-text{
     position: relative;
     bottom: 3px;
@@ -11499,15 +11518,35 @@ footer.footer-4 {
   /* styles for browsers larger than 960px; */
 }
 
-@media only screen and (min-width: 1440px) {
-  /* styles for browsers larger than 1440px; */
+@media only screen and (max-width: 1440px) {
+  /* styles for browsers smaller than 1440px; */
+
+  .swiper-group-1.right-pagination .swiper-pagination {
+    left:473px;
+  }
+  
 }
 
 @media only screen and (min-width: 2000px) {
 
+  .swiper-group-1.right-pagination .swiper-pagination {
+    left:473px;
+  }
+
+  .box-info-banner11 {
+    margin-top: -350px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
+
+  .cookies-banner {
+    margin-top: 23px !important;
+  }
+
+  .swiper-group-1.right-pagination .swiper-pagination {
+    top: 76px;
+  }
 
   .footer-item{
     text-align: center;
@@ -11730,17 +11769,24 @@ footer.footer-4 {
     line-height: 60px;
   }
 
+
+
   .header .main-header .header-left .header-right {
     width: 64%;
   }
 
 }
 @media (min-width: 2560px) {
+
   .swiper-group-1.right-pagination .swiper-pagination {
   
     left: 598px !important;
 
   }
+
+  .swiper-group-1.right-pagination .swiper-pagination {
+    left: 130px !important;
+}
 }
 
 @media (min-width: 994px) and (max-width: 1455px) {
