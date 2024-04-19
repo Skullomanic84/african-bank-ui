@@ -44,6 +44,8 @@ const HeroSlider = () => {
 
           className="swiper-wrapper"
         >
+
+        
           <SwiperSlide className="swiper-slide">
             <div
               className="banner-slide-11"
@@ -55,6 +57,8 @@ const HeroSlider = () => {
               <BannerAbs/>
             </div>
           </SwiperSlide>
+
+
           <SwiperSlide className="swiper-slide">
             <div
               className="banner-slide-11"

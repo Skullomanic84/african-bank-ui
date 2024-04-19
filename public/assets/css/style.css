@@ -9935,6 +9935,7 @@ footer.footer-4 {
   text-align: -webkit-center;
 }
 
+
 @media (max-width: 2000px) {
   .calculator-width {
     width: 75%;
@@ -11516,6 +11517,21 @@ footer.footer-4 {
 /*# sourceMappingURL=style.css.map */
 @media only screen and (min-width: 960px) {
   /* styles for browsers larger than 960px; */
+}
+
+
+/*# sourceMappingURL=style.css.map */
+@media only screen and (min-width: 1500px) and (max-width: 1999px) {
+  /* styles for browsers min-width: 1500px; */
+
+  .swiper-group-1.right-pagination .swiper-pagination {
+    left:400px;
+    top: 28%;
+  }
+
+  .box-info-banner11 {
+    margin-top: -354px !important;
+  }
 }
 
 @media only screen and (max-width: 1440px) {

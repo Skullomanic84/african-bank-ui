@@ -1,6 +1,7 @@
 import React from 'react';
 import SwiperCore, { Autoplay, Navigation,Pagination } from "swiper";
 import Link from "next/link";
+import { BsChevronRight } from "react-icons/bs";
 
 SwiperCore.use([Autoplay, Navigation,Pagination]);
 const Submenu = () => {
@@ -15,8 +16,9 @@ const Submenu = () => {
               <br /> To Apply For…
             </h5>
             <div className="d-none d-sm-inline-block modal-btn">
-              <Link className="btn btn-brand-banner btn-brand-banner-business-banking " href="/">
+              <Link className="btn btn-brand-1 newBtn" href="/">
                 <span>PLEASE SELECT</span>
+                <BsChevronRight className="right-icon"/>
               </Link>
             </div>
           </div>
