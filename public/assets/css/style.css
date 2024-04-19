@@ -128,7 +128,7 @@ main {
 }
 
 #openChatButton {
-  display: none;
+  display: none !important;
 }
 
 thead {
@@ -10610,9 +10610,9 @@ footer.footer-4 {
 }
 
 @media (max-width: 767.98px) {
-  .main{
+  /* .main{
     margin: 0px 20px;
-  }
+  } */
   .combo-btn-text{
     position: relative;
     bottom: 3px;
