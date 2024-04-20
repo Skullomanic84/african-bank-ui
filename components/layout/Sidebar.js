@@ -33,7 +33,7 @@ const Sidebar = ({ openClass }) => {
                             {/* <img alt="IORI" src="assets/imgs/new-site/logo.png" /> */}
                             <Image
                                     alt="IORI"
-                                    src="/assets/imgs/new-site/logo.png"
+                                    src="/assets/imgs/new-site/Logo.png"
                                     width={500}  // Specify the width of the image
                                     height={300} // Specify the height of the image
                                     layout="responsive" // This keeps the aspect ratio of the image
