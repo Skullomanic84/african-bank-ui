@@ -1,6 +1,8 @@
 import React from 'react';
 import SwiperCore, { Autoplay, Navigation,Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image';
+
 
 SwiperCore.use([Autoplay, Navigation,Pagination]);
 const Brand = () => {
@@ -63,7 +65,15 @@ const Brand = () => {
             >
                 {data.map((item, i) => (
                     <SwiperSlide className="swiper-slide">
-                        <a href="#"><img src={`assets/imgs/page/homepage1/${item.img}`} alt="Genz" /></a>
+                        <a href="#">
+                            {/* <img src={`assets/imgs/page/homepage1/${item.img}`} alt="Genz" /> */}
+                            <Image
+                                   src={`/assets/imgs/page/homepage1/${item.img}`} alt="Genz"
+                                    width={500}  // Specify the width of the image
+                                    height={300} // Specify the height of the image
+                                    layout="responsive" // This keeps the aspect ratio of the image
+                                    />
+                        </a>
                     </SwiperSlide>
                 ))}
             </Swiper>

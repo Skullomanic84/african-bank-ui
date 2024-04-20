@@ -4,6 +4,7 @@ import Head from "next/head";
 import Layout from "../components/layout/Layout";
 import Accordion from "../components/elements/Accordion";
 import Calculactor from "../components/elements/calculator";
+import Image from 'next/image';
 
 
 const PersonalLoan = () => {
@@ -34,11 +35,21 @@ const PersonalLoan = () => {
                   </div>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
-                  <img
+                  {/* <img
                     className="d-block"
                     src="assets\imgs\new-site\best-bank.png"
                     alt="iori"
-                  />
+                  /> */}
+                   <Image
+                                      
+                                      
+                                      className="d-block"
+                    src="/assets/imgs/new-site/best-bank.png"
+                    alt="iori"
+                    width={500}
+                                      height={300}
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
                 </div>
               </div>
             </div>
@@ -84,10 +95,17 @@ const PersonalLoan = () => {
                 <div className="col-lg-6">
                   <div className="card-offer-small card-we-do hover-up">
                     <div className="card-image">
-                      <img
+                      {/* <img
                         src="assets/imgs/page/homepage2/we-do3.png"
                         alt="iori"
-                      />
+                      /> */}
+                      <Image
+                      width={500}
+                      height={300}
+                      src="/assets/imgs/page/homepage2/we-do3.png"
+                      alt="iori"
+                  layout="responsive" // This keeps the aspect ratio of the image
+                   />
                     </div>
                     <div className="card-info">
                       <h4 className="color-brand-1 mb-10">
@@ -107,10 +125,17 @@ const PersonalLoan = () => {
                 <div className="col-lg-6">
                   <div className="card-offer-small card-we-do hover-up">
                     <div className="card-image">
-                      <img
+                      {/* <img
                         src="assets/imgs/page/homepage2/we-do.png"
                         alt="iori"
-                      />
+                      /> */}
+                      <Image
+                      src="/assets/imgs/page/homepage2/we-do.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
                     </div>
                     <div className="card-info">
                       <h4 className="color-brand-1 mb-10">
@@ -130,10 +155,17 @@ const PersonalLoan = () => {
                 <div className="col-lg-6">
                   <div className="card-offer-small card-we-do hover-up">
                     <div className="card-image">
-                      <img
+                      {/* <img
                         src="assets/imgs/page/homepage2/we-do4.png"
                         alt="iori"
-                      />
+                      /> */}
+                      <Image
+                      src="/assets/imgs/page/homepage2/we-do4.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
                     </div>
                     <div className="card-info">
                       <h4 className="color-brand-1 mb-10">
@@ -165,10 +197,17 @@ const PersonalLoan = () => {
                 <div className="col-lg-6">
                   <div className="card-offer-small card-we-do hover-up">
                     <div className="card-image">
-                      <img
+                      {/* <img
                         src="assets/imgs/page/homepage2/we-do3.png"
                         alt="iori"
-                      />
+                      /> */}
+                      <Image
+                      src="/assets/imgs/page/homepage2/we-do3.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
                     </div>
                     <div className="card-info">
                       <h4 className="color-brand-1 mb-10">
@@ -188,10 +227,17 @@ const PersonalLoan = () => {
                 <div className="col-lg-6">
                   <div className="card-offer-small card-we-do hover-up">
                     <div className="card-image">
-                      <img
+                      {/* <img
                         src="assets/imgs/page/homepage2/we-do.png"
                         alt="iori"
-                      />
+                      /> */}
+                       <Image
+                      src="/assets/imgs/page/homepage2/we-do.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
                     </div>
                     <div className="card-info">
                       <h4 className="color-brand-1 mb-10">
@@ -211,10 +257,17 @@ const PersonalLoan = () => {
                 <div className="col-lg-6">
                   <div className="card-offer-small card-we-do hover-up">
                     <div className="card-image">
-                      <img
+                      {/* <img
                         src="assets/imgs/page/homepage2/we-do4.png"
                         alt="iori"
-                      />
+                      /> */}
+                      <Image
+                      src="assets/imgs/page/homepage2/we-do4.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
                     </div>
                     <div className="card-info">
                       <h4 className="color-brand-1 mb-10">
@@ -428,11 +481,19 @@ const PersonalLoan = () => {
                   </div>
                 </div>
                 <div className="col-xl-5 col-lg-5 col-md-5">
-                  <img
+                  {/* <img
                     className="d-block"
                     src="assets\imgs\new-site\best-bank.png"
                     alt="iori"
-                  />
+                  /> */}
+                   <Image
+                      className="d-block"
+                      src="/assets/imgs/new-site/best-bank.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
                 </div>
               </div>
             </div>
@@ -497,11 +558,20 @@ const PersonalLoan = () => {
                   </p>
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-6">
-                  <img
+                  {/* <img
                     className="d-block"
                     src="assets\imgs\new-site\best-bank.png"
                     alt="iori"
-                  />
+                  /> */}
+
+<Image
+                      className="d-block"
+                      src="/assets/imgs/new-site/best-bank.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
                 </div>
               </div>
             </div>

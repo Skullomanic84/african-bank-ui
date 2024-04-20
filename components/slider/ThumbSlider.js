@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useState } from "react";
+import Image from 'next/image';
 
 const data = [
     {
@@ -80,11 +81,19 @@ const ThumbSlider = () => {
                     >
                         {data.map((item, index) => (
                             <figure className="border-radius-10">
-                                <img
+                                {/* <img
                                     src={item.bigImage}
                                     alt="product image"
                                     key={index}
-                                />
+                                /> */}
+                                 <Image
+                                           src={item.bigImage}
+                                           alt="product image"
+                                           key={index}
+                                            width={500}  // Specify the width of the image
+                                            height={300} // Specify the height of the image
+                                            layout="responsive" // This keeps the aspect ratio of the image
+                                    />
                             </figure>
                         ))}
                     </Slider>
@@ -98,7 +107,20 @@ const ThumbSlider = () => {
                 >
                     {data.map((item) => (
                         <div key={item.id}>
-                            <img
+                            <Image
+                                           src={item.image}
+                                           alt=""
+                                           style={{
+                                               width: "100%",
+                                               height: 100,
+                                               objectFit: "cover",
+                                               cursor: "pointer"
+                                           }}
+                                            width={500}  // Specify the width of the image
+                                            height={300} // Specify the height of the image
+                                            layout="responsive" // This keeps the aspect ratio of the image
+                                    />
+                            {/* <img
                                 src={item.image}
                                 alt=""
                                 style={{
@@ -107,7 +129,8 @@ const ThumbSlider = () => {
                                     objectFit: "cover",
                                     cursor: "pointer"
                                 }}
-                            />
+                            /> */}
+                            
                         </div>
                     ))}
                 </Slider>

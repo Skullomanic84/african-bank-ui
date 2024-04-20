@@ -1,3 +1,4 @@
+import Image from 'next/image';
 
 
 const Banner = () => {
@@ -9,7 +10,18 @@ const Banner = () => {
     <div className="p-6 ">
       <div className="d-flex align-items-start " style={{backgroundcolor:"#fff", minHeight: '50px' }}>
         <div className="d-inline-flex">
-          <img className='center-banner' src="https://www.africanbank.co.za/Media/dqxpfbcm/cookies.svg"  height="25px" width="25px"></img>
+        
+        <div className='center-banner-size'> {/* Container to control the width as a percentage of its parent */}
+      <Image
+        className='center-banner'
+        src="https://www.africanbank.co.za/Media/dqxpfbcm/cookies.svg"
+        alt="Description of image"  // It's good practice to provide an alt description for accessibility
+        width={100} // Actual width in pixels of the source image
+        height={100} // Actual height in pixels of the source image
+        layout="responsive" // Image will scale with the container while maintaining this aspect ratio
+      />
+    </div>
+          {/* <img className='center-banner' src="https://www.africanbank.co.za/Media/dqxpfbcm/cookies.svg"  height="25px" width="25px"></img> */}
           <h5 className="h6 mb-0 fw-bold .fs-4 center-banner cookies-text"> We use cookies to improve your experience</h5>
         </div>
 

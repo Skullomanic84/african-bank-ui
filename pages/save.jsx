@@ -5,6 +5,7 @@ import Layout from "../components/layout/Layout";
 import Accordion from "../components/elements/Accordion";
 import { BsChevronRight } from "react-icons/bs";
 import { IoCloudDownloadOutline } from "react-icons/io5";
+import Image from 'next/image';
 
 const Bank = () => {
   return (
@@ -41,11 +42,19 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\loan.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                      className="d-block"
+                      src="/assets/imgs/new-site/loan.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
               </div>
             </div>
           </div>
@@ -79,11 +88,19 @@ const Bank = () => {
                 </p>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\Images_Digital_500x500-02.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                      className="d-block"
+                      src="/assets/imgs/new-site/Images_Digital_500x500-02.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
               </div>
             </div>
           </div>
@@ -114,11 +131,19 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\dreamer.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                      className="d-block"
+                      src="/assets/imgs/new-site/dreamer.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
               </div>
             </div>
           </div>
@@ -153,11 +178,20 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\best-bank.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                      className="d-block"
+                      src="/assets/imgs/new-site/best-bank.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
+                
               </div>
             </div>
           </div>
@@ -189,11 +223,19 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\myworld.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                      className="d-block"
+                      src="/assets/imgs/new-site/myworld.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
               </div>
             </div>
           </div>
@@ -438,11 +480,19 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\best-bank.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                      className="d-block"
+                      src="/assets/imgs/new-site/best-bank.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
               </div>
             </div>
           </div>
@@ -503,11 +553,19 @@ const Bank = () => {
                 </p>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\pagebanner.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                      className="d-block"
+                      src="/assets/imgs/new-site/pagebanner.png"
+                      alt="iori"
+                      width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
               </div>
             </div>
           </div>
@@ -689,11 +747,19 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\credit-card.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                       className="d-block"
+                       src="/assets/imgs/new-site/credit-card.png"
+                       alt="iori"
+                       width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
               </div>
             </div>
           </div>
@@ -716,11 +782,19 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\get app.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                       className="d-block"
+                       src="/assets/imgs/new-site/get app.png"
+                       alt="iori"
+                       width={500}
+                                      height={300}
+                      layout="responsive" // This keeps the aspect ratio of the image
+                   />
               </div>
             </div>
           </div>

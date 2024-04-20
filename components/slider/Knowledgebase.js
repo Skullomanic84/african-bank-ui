@@ -1,6 +1,7 @@
 import React from 'react';
 import SwiperCore, { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image';
 
 SwiperCore.use([Autoplay, Navigation]);
 const Knowledgebase = () => {
@@ -69,7 +70,15 @@ const Knowledgebase = () => {
                 {data.map((item, i) => (
                     <SwiperSlide className="swiper-slide">
                         <div className="card-guide">
-                            <div className="card-image"><img src={`assets/imgs/page/help/${item.img}`} alt="iori" /></div>
+                            <div className="card-image">
+                                {/* <img src={`assets/imgs/page/help/${item.img}`} alt="iori" /> */}
+                                <Image
+                                        src={`/assets/imgs/page/help/${item.img}`} alt="iori"
+                                            width={500}  // Specify the width of the image
+                                            height={300} // Specify the height of the image
+                                            layout="responsive" // This keeps the aspect ratio of the image
+                                    />
+                            </div>
                             <div className="card-info">
                                 <h5 className="color-brand-1 mb-15">Knowledge Base</h5>
                                 <p className="font-xs color-grey-500">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis a libero tempus</p>

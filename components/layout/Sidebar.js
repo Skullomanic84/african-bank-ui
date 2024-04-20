@@ -4,6 +4,7 @@ import Tabs from 'react-bootstrap/Tabs';
 
 import Link from "next/link";
 import { useState } from "react";
+import Image from 'next/image';
 
 const Sidebar = ({ openClass }) => {
     const [isActive, setIsActive] = useState({
@@ -28,7 +29,16 @@ const Sidebar = ({ openClass }) => {
             <div className={`mobile-header-active mobile-header-wrapper-style perfect-scrollbar ${openClass}`}>
                 <div className="mobile-header-wrapper-inner">
                     <div className="mobile-header-content-area">
-                        <div className="mobile-logo"><Link className="d-flex" href="/"><img alt="IORI" src="assets/imgs/new-site/logo.png" /></Link></div>
+                        <div className="mobile-logo"><Link className="d-flex" href="/">
+                            {/* <img alt="IORI" src="assets/imgs/new-site/logo.png" /> */}
+                            <Image
+                                    alt="IORI"
+                                    src="/assets/imgs/new-site/logo.png"
+                                    width={500}  // Specify the width of the image
+                                    height={300} // Specify the height of the image
+                                    layout="responsive" // This keeps the aspect ratio of the image
+                                    />
+                            </Link></div>
                         <div className="perfect-scroll">
 
                             {/* <div className="mobile-menu-wrap mobile-header-border">

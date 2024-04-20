@@ -1,6 +1,7 @@
 import React from 'react';
 import SwiperCore, { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image';
 
 SwiperCore.use([Autoplay, Navigation]);
 const Testimonial = () => {
@@ -69,12 +70,47 @@ const Testimonial = () => {
                 {data.map((item, i) => (
                     <SwiperSlide className="swiper-slide">
                         <div className="card-testimonial-grid">
-                            <div className="box-author mb-10"><a href="#"><img src="assets/imgs/page/homepage1/author.png" alt="iori" /></a>
+                            <div className="box-author mb-10"><a href="#">
+                                {/* <img src="assets/imgs/page/homepage1/author.png" alt="iori" /> */}
+                                <Image
+                                         src="/assets/imgs/page/homepage1/author.png" alt="iori"
+                                            width={500}  // Specify the width of the image
+                                            height={300} // Specify the height of the image
+                                            layout="responsive" // This keeps the aspect ratio of the image
+                                    />
+                                
+                            </a>
                                 <div className="author-info"><a href="#"><span className="font-md-bold color-brand-1 author-name">Guy Hawkins</span></a><span className="font-xs color-grey-500 department">Bank of America</span></div>
                             </div>
                             <p className="font-md color-grey-500">Access the same project through five different dynamic views: a kanban board, Gantt chart, spreadsheet, calendar or simple task list. When team members can choose the work style that suits them best, productivity and engagement skyrocket. Maecenas lobortis risus.</p>
                             <div className="card-bottom-info"><span className="font-xs color-grey-500 date-post">29 November 2022</span>
-                                <div className="rating text-end"><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /><img src="assets/imgs/template/icons/star.svg" alt="iori" /></div>
+                                <div className="rating text-end">
+                                    <Image
+                                          src="assets/imgs/template/icons/star.svg" alt="iori" 
+                                            width={500}  // Specify the width of the image
+                                            height={300} // Specify the height of the image
+                                            layout="responsive" // This keeps the aspect ratio of the image
+                                    />
+                                    <Image
+                                          src="assets/imgs/template/icons/star.svg" alt="iori" 
+                                            width={500}  // Specify the width of the image
+                                            height={300} // Specify the height of the image
+                                            layout="responsive" // This keeps the aspect ratio of the image
+                                    />
+                                    <Image
+                                          src="assets/imgs/template/icons/star.svg" alt="iori" 
+                                            width={500}  // Specify the width of the image
+                                            height={300} // Specify the height of the image
+                                            layout="responsive" // This keeps the aspect ratio of the image
+                                    />
+                                    <Image
+                                          src="assets/imgs/template/icons/star.svg" alt="iori" 
+                                            width={500}  // Specify the width of the image
+                                            height={300} // Specify the height of the image
+                                            layout="responsive" // This keeps the aspect ratio of the image
+                                    />
+                                   
+                                </div>
                             </div>
                         </div>
                     </SwiperSlide>

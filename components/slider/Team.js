@@ -1,6 +1,7 @@
 import React from 'react';
 import SwiperCore, { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image';
 
 SwiperCore.use([Autoplay, Navigation]);
 const Team = () => {
@@ -90,7 +91,15 @@ const Team = () => {
                 {data.map((item, i) => (
                     <SwiperSlide class="swiper-slide">
                         <div className={`card-member-2 mb-30 ${item.color}`}>
-                            <div className="card-image"><img src={`/assets/imgs/page/homepage8/${item.img}`} alt="iori" /></div>
+                            <div className="card-image">
+                                {/* <img src={`/assets/imgs/page/homepage8/${item.img}`} alt="iori" /> */}
+                                <Image
+                                        src={`/assets/imgs/page/help/${item.img}`} alt="iori"
+                                            width={500}  // Specify the width of the image
+                                            height={300} // Specify the height of the image
+                                            layout="responsive" // This keeps the aspect ratio of the image
+                                    />
+                            </div>
                             <div className={`card-info ${item.color2}`}><a className="font-lg-bold color-brand-1" href="#">Steven Jobs</a>
                                 <div className="d-flex align-items-center">
                                     <p className="font-xs color-grey-200">Graphic Designer</p>

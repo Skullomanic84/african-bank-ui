@@ -6,6 +6,7 @@ import Accordion from "../components/elements/Accordion";
 import Calculactor from "../components/elements/calculator";
 import { BsChevronRight } from "react-icons/bs";
 import { IoCloudDownloadOutline } from "react-icons/io5";
+import Image from 'next/image';
 
 const Borrow = () => {
   return (
@@ -46,11 +47,21 @@ const Borrow = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\Images_Digital_500x500-02.png"
                   alt="iori"
-                />
+                /> */}
+               
+               <Image
+        className="d-block"
+        src="/assets/imgs/new-site/Images_Digital_500x500-02.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
+             
               </div>
             </div>
           </div>
@@ -60,11 +71,19 @@ const Borrow = () => {
           <div className="container">
             <div className="row align-items-center row-change">
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\loan.png"
                   alt="iori"
-                />
+                /> */}
+                 <Image
+                    className="d-block"
+                    src="/assets/imgs/new-site/loan.png"
+                    alt="iori"
+                    width={500}
+                    height={300}
+                    layout="responsive" // This keeps the aspect ratio of the image
+                  />
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <Calculactor />
@@ -107,11 +126,21 @@ const Borrow = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\retirement.png"
                   alt="iori"
-                />
+                /> */}
+
+                  <Image
+                    className="d-block"
+                    src="/assets/imgs/new-site/retirement.png"
+                    alt="iori"
+                    width={500}
+                    height={300}
+                    layout="responsive" // This keeps the aspect ratio of the image
+                  />
+               
               </div>
             </div>
           </div>
@@ -138,11 +167,22 @@ const Borrow = () => {
                 </p>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\dreamer.png"
                   alt="iori"
-                />
+                /> */}
+
+<Image
+        className="d-block"
+        src="/assets/imgs/new-site/dreamer.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
+              
+                                    
               </div>
             </div>
           </div>
@@ -181,11 +221,20 @@ const Borrow = () => {
                 </p>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\myworld.png"
                   alt="iori"
-                />
+                /> */}
+<Image
+        className="d-block"
+        src="/assets/imgs/new-site/myWorld.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
+                
               </div>
             </div>
           </div>
@@ -226,11 +275,21 @@ const Borrow = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\best-bank.png"
                   alt="iori"
-                />
+                /> */}
+
+
+         <Image
+        className="d-block"
+        src="/assets/imgs/new-site/best-bank.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />  
               </div>
             </div>
           </div>
@@ -271,11 +330,19 @@ const Borrow = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\credit-card.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+        className="d-block"
+        src="/assets/imgs/new-site/credit-card.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />  
               </div>
             </div>
           </div>
@@ -319,11 +386,21 @@ const Borrow = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\pagebanner.png"
                   alt="iori"
-                />
+                /> */}
+
+
+<Image
+        className="d-block"
+        src="/assets/imgs/new-site/pagebanner.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />             
               </div>
             </div>
           </div>
@@ -347,11 +424,22 @@ const Borrow = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\get app.png"
                   alt="iori"
-                />
+                /> */}
+
+                
+<Image
+                                     className="d-block"
+                                     src="/assets/imgs/new-site/get app.png"
+                                     alt="iori"
+                                     width={500}
+                  height={300}
+                                    layout="responsive" // This keeps the aspect ratio of the image
+                                    />  
+                
               </div>
             </div>
           </div>

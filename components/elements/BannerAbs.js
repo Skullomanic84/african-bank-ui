@@ -1,5 +1,6 @@
 import React from 'react';
 import { SlArrowRight } from "react-icons/sl";
+import Image from 'next/image';
 
 const BannerAbs = () => {
   return (
@@ -22,11 +23,19 @@ const BannerAbs = () => {
                     </div>
                     <div className="col-lg-6 col-md-12 col-sm-12 d-lg-block position-relative">
                       <div className="box-image-main">
-                        <img
+                        {/* <img
                           className="image-banner-main d-block"
                           src="assets/imgs/new-site/Spirographs_Digital_500x500-01.svg"
                           alt="iori"
-                        />
+                        /> */}
+                        <Image
+                                    className="image-banner-main d-block"
+                                    src="/assets/imgs/new-site/Spirographs_Digital_500x500-01.svg"
+                                    alt="iori"
+                                    width={500}
+                                    height={300}
+                                    layout="responsive" // This keeps the aspect ratio of the image
+                                    />
                       </div>
                     </div>
                   </div>

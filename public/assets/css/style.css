@@ -659,9 +659,14 @@ label {
   min-height: 800px;
 }
 
+.section-800 img.rating-icon  {
+  max-width: 4% !important;
+}
+
 .section-800 img {
   max-width: 100% !important;
 }
+
 
 .bg-1 {
   background-color: #EFE9FF !important;
@@ -1168,7 +1173,13 @@ body {
 .center-banner{
   white-space: nowrap;
   top: 14px;
+ 
   position: relative;
+}
+img .center-banner{
+  
+  width: 3% !important;
+
 }
 
 .btn {
@@ -2870,9 +2881,6 @@ body {
   margin-bottom: 10px;
 }
 
-.card-review .card-info .rating-review img {
-  margin-right: 3px;
-}
 
 .card-become {
   display: inline-block;
@@ -9935,6 +9943,10 @@ footer.footer-4 {
   text-align: -webkit-center;
 }
 
+.center-banner-size{
+  width: 3%;
+}
+
 
 @media (max-width: 2000px) {
   .calculator-width {
@@ -10629,6 +10641,9 @@ footer.footer-4 {
     top:50px
   }
 
+  .center-banner-size{
+    width: 8%;
+  }
 
   .swiper-group-1.right-pagination .swiper-pagination {
     top: 76px;
@@ -10993,6 +11008,10 @@ footer.footer-4 {
     gap:unset;
   }
 
+  .center-banner{
+    width: 100% !important;
+  }
+
   .combo-btn .column1, .column2 {
     flex: 1 1;
     padding: 3px;
@@ -11021,6 +11040,7 @@ footer.footer-4 {
     height: 35px;
 
   }
+
   .section-800 {
     display: flex;          /* Enables Flexbox */
     flex-direction: column; /* Stacks children vertically */
@@ -11561,6 +11581,7 @@ footer.footer-4 {
 @media only screen and (max-width: 480px) {
 
   .cookies-banner {
+    width: 100% !important;
     margin-top: 23px !important;
   }
 
@@ -11607,6 +11628,7 @@ footer.footer-4 {
   }
 
   img.center-banner{
+    width: 7%;
     top: 15px !important;
     position: relative;
   }
@@ -11666,6 +11688,7 @@ footer.footer-4 {
 @media only screen and (max-width: 926px) {
 
   .mobile-logo {
+    width: 30% !important;
     display: block !important;
   }
   .desktop-logo {

@@ -4,6 +4,7 @@ import Head from "next/head";
 import Layout from "../components/layout/Layout";
 import Accordion from "../components/elements/Accordion";
 import { BsChevronRight } from "react-icons/bs";
+import Image from 'next/image';
 
 const Insure = () => {
   return (
@@ -32,10 +33,20 @@ const Insure = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\retirement.png"
                   alt="iori"
+                /> */}
+
+                <Image
+                                      
+                            className="d-block"
+                            src="/assets/imgs/new-site/retirement.png"
+                            alt="iori"
+                            width={500}
+                  height={300}
+                            layout="responsive" // This keeps the aspect ratio of the image
                 />
               </div>
             </div>
@@ -323,11 +334,20 @@ const Insure = () => {
                   </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\Images_Digital_500x500-02.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                                      
+                                      className="d-block"
+                                      src="/assets/imgs/new-site/Images_Digital_500x500-02.png"
+                                      alt="iori"
+                                      width={500}
+                  height={300}
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
               </div>
             </div>
           </div>
@@ -454,11 +474,20 @@ const Insure = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\loan.png"
                   alt="iori"
-                />
+                /> */}
+                 <Image
+                                      
+                                      className="d-block"
+                  src="/assets/imgs/new-site/loan.png"
+                  alt="iori"
+                  width={500}
+                  height={300}
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
               </div>
             </div>
           </div>
@@ -519,11 +548,20 @@ const Insure = () => {
                   </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\credit-card.png"
                   alt="iori"
-                />
+                /> */}
+                    <Image
+                                      
+                                      className="d-block"
+                                      src="/assets/imgs/new-site/credit-card.png"
+                                      alt="iori"
+                                      width={500}
+                  height={300}
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                    />
               </div>
             </div>
           </div>
@@ -557,11 +595,20 @@ const Insure = () => {
                   </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\pagebanner.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                                      
+                                      className="d-block"
+                                      src="/assets/imgs/new-site/pagebanner.png"
+                                      alt="iori"
+                                      width={500}
+                  height={300}
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                    />
               </div>
             </div>
           </div>
@@ -613,11 +660,20 @@ const Insure = () => {
                 </p>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\dreamer.png"
                   alt="iori"
-                />
+                /> */}
+                 <Image
+                                      
+                                      className="d-block"
+                                      src="/assets/imgs/new-site/dreamer.png"
+                                      alt="iori"
+                                      width={500}
+                  height={300}
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                    />
               </div>
             </div>
           </div>

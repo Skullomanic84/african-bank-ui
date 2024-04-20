@@ -5,6 +5,7 @@ import Layout from "../components/layout/Layout";
 import Accordion2 from "../components/elements/Accordion2";
 import { BsChevronRight } from "react-icons/bs";
 import { IoCloudDownloadOutline } from "react-icons/io5";
+import Image from 'next/image';
 
 const Bank = () => {
   return (
@@ -40,11 +41,20 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\myWorld.png"
                   alt="iori"
-                />
+                /> */}
+
+<Image
+        className="d-block"
+        src="/assets/imgs/new-site/myWorld.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
               </div>
             </div>
           </div>
@@ -67,11 +77,21 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\get app.png"
                   alt="iori"
-                />
+                /> */}
+
+<Image
+        className="d-block"
+        src="/assets/imgs/new-site/get app.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
+
               </div>
             </div>
           </div>
@@ -106,11 +126,19 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\dreamer.png"
                   alt="iori"
-                />
+                /> */}
+      <Image
+        className="d-block"
+        src="/assets/imgs/new-site/dreamer.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
               </div>
             </div>
           </div>
@@ -166,11 +194,24 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\Images_Digital_500x500-02.png"
                   alt="iori"
-                />
+                /> */}
+             
+        
+
+
+             <Image
+        className="d-block"
+        src="/assets/imgs/new-site/Images_Digital_500x500-02.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
+                
               </div>
             </div>
           </div>
@@ -224,11 +265,20 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\best-bank.png"
                   alt="iori"
-                />
+                /> */}
+               
+      <Image
+        className="d-block"
+        src="/assets/imgs/new-site/best-bank.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
               </div>
             </div>
           </div>
@@ -317,11 +367,21 @@ const Bank = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\credit-card.png"
                   alt="iori"
-                />
+                /> */}
+
+<Image
+        className="d-block"
+        src="/assets/imgs/new-site/credit-card.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
+               
               </div>
             </div>
           </div>

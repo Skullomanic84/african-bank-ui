@@ -8,6 +8,7 @@ import { SlArrowRight } from "react-icons/sl";
 import Calculactor from "../components/elements/calculator";
 import { BsChevronRight } from "react-icons/bs";
 import { IoCloudDownloadOutline } from "react-icons/io5";
+import Image from 'next/image';
 
 const Home = () => {
   const [isOpen, setOpen] = useState(false);
@@ -33,11 +34,22 @@ const Home = () => {
                 <Calculactor />
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\loan.png"
                   alt="iori"
+                /> */}
+
+
+<Image
+                  className="d-block"
+                  src="/assets/imgs/new-site/loan.png"
+                  alt="Iori"
+                  width={500}
+                  height={300}
+                  layout="responsive"
                 />
+
               </div>
             </div>
           </div>
@@ -47,11 +59,20 @@ const Home = () => {
           <div className="container">
             <div className="row align-items-center">
             <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\get a loan.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+        className="d-block"
+        src="/assets/imgs/new-site/get a loan.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
+    
                 <div className="d-none d-sm-inline-block pr-5">
                   <Link className="btn btn-brand-1 hover-up" href="#">
                     QUOTE ME
@@ -157,11 +178,20 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\get app.png"
                   alt="iori"
-                />
+                /> */}
+                 
+        <Image
+        className="d-block"
+        src="/assets/imgs/new-site/get app.png"
+        alt="iori"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
               </div>
             </div>
           </div>
@@ -171,11 +201,22 @@ const Home = () => {
           <div className="container">
             <div className="row align-items-center " >
             <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\credit-card.png"
                   alt="iori"
-                />
+                /> */}
+                
+       <Image
+        className="d-block"
+        src="/assets/imgs/new-site/credit-card.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
+
+      
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
                 <h1 className="color-brand-1 mt-15 mb-20">
@@ -230,11 +271,21 @@ const Home = () => {
               </div>
               
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\retirement.png"
                   alt="iori"
-                />
+                /> */}
+
+<Image
+        className="d-block"
+        src="/assets/imgs/new-site/retirement.png"
+        alt="Get a loan options"
+        width={500}
+        height={300}
+        layout="responsive"
+      />
+                  
               </div>
               
             </div>
@@ -264,3 +315,4 @@ const Home = () => {
 };
 
 export default Home;
+

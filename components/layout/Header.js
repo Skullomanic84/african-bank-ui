@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import { FaCircleUser } from "react-icons/fa6";
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 
 const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
     const [scroll, setScroll] = useState(0)
@@ -34,17 +35,35 @@ const Header = ({ handleOpen, handleRemove, openClass, addClass }) => {
                 <div className="header-logo">
                     {/* Desktop Logo */}
                   <Link className="d-flex desktop-logo" href="/">
-                    <img
+                    {/* <img
                       alt="African Bank"
                       src="assets/imgs/new-site/Logo.png"
-                    />
+                    /> */}
+
+                <div style={{ width: '100%' }}> {/* Container controls the width as a percentage */}
+                      <Image
+                        alt="African Bank"
+                        src="/assets/imgs/new-site/Logo.png"
+                        width={500}  // Actual width in pixels
+                        height={300} // Actual height in pixels
+                        layout="responsive"  // Image will scale with the container while maintaining this aspect ratio
+                      />
+                    </div>
                   </Link>
                     {/* mobile Logo */}
                     <Link className="d-flex mobile-logo" href="/">
-                    <img
+                    {/* <img
                       alt="African Bank"
                       src="assets/imgs/new-site/logo-two.png"
-                    />
+                    /> */}
+
+                <Image
+                  alt="African Bank"
+                  src="/assets/imgs/new-site/logo-two.png"
+                  width={500}  // Actual width in pixels
+                        height={300} // Actual height in pixels
+                  layout="responsive" // This keeps the aspect ratio of the image
+                />
                   </Link>
                 </div>
                 <div className="header-nav">

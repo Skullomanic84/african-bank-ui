@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React from 'react';
 import { FaFacebookF, FaBlog, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter, FaInstagram } from "react-icons/fa6";
+import Image from 'next/image';
 
 const Footer = () => {
     return (
@@ -113,10 +114,18 @@ const Footer = () => {
                     <ul className="menu-bottom">
                       <li>
                         <Link className="font-sm" href="/">
-                          <img
+                          {/* <img
                             alt="African Bank"
                             src="assets/imgs/new-site/Logo.png"
-                          />
+                          /> */}
+                          
+                                    <Image
+                                        alt="African Bank"
+                                        src="/assets/imgs/new-site/Logo.png"
+                                        width={500}
+                  height={300}
+                                       layout="responsive" // This keeps the aspect ratio of the image
+                                     />
                         </Link>
                       </li>
                     </ul>

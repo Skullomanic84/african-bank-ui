@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Image from 'next/image';
+
 
 
 const Tab = () => {
@@ -40,11 +42,20 @@ const Tab = () => {
             <div className="box-tab-32">
               <div className="row align-items-center">
                 <div className="col-xl-6 col-lg-5">
-                  <img
+                  {/* <img
                     className="bd-rd16"
                     src="/assets/imgs/page/homepage10/img-tab.png"
                     alt="iori"
-                  />
+                  /> */}
+                   <Image
+                                      className="bd-rd16"
+                                      src="/assets/imgs/page/homepage10/img-tab.png"
+                                      alt="iori"
+                                      width={500}
+                                      height={300}
+                                    layout="responsive" // This keeps the aspect ratio of the image
+                                    />
+                  
                 </div>
                 <div className="col-xl-6 col-lg-7">
                   <div className="box-business-tab">
@@ -178,11 +189,21 @@ const Tab = () => {
             <div className="box-tab-32">
               <div className="row align-items-center">
                 <div className="col-xl-6 col-lg-5">
-                  <img
+                  {/* <img
                     className="bd-rd16"
                     src="/assets/imgs/page/blog2/img1.png"
                     alt="iori"
-                  />
+                  /> */}
+                   <Image
+                                       className="bd-rd16"
+                                       src="/assets/imgs/page/blog2/img1.png"
+                                       alt="iori"
+                                       width={500}
+                  height={300}
+                                       layout="responsive" // This keeps the aspect ratio of the image
+                                     />
+                                  
+                  
                 </div>
                 <div className="col-xl-6 col-lg-7">
                   <div className="box-business-tab">
@@ -316,11 +337,19 @@ const Tab = () => {
             <div className="box-tab-32">
               <div className="row align-items-center">
                 <div className="col-xl-6 col-lg-5">
-                  <img
+                  {/* <img
                     className="bd-rd16"
                     src="/assets/imgs/page/homepage10/img-tab.png"
                     alt="iori"
-                  />
+                  /> */}
+                    <Image
+                                       className="bd-rd16"
+                                       src="/assets/imgs/page/homepage10/img-tab.png"
+                                       alt="iori"
+                                       width={500}
+                  height={300}
+                                       layout="responsive" // This keeps the aspect ratio of the image
+                                     />
                 </div>
                 <div className="col-xl-6 col-lg-7">
                   <div className="box-business-tab">
@@ -454,11 +483,20 @@ const Tab = () => {
             <div className="box-tab-32">
               <div className="row align-items-center">
                 <div className="col-xl-6 col-lg-5">
-                  <img
+                  {/* <img
                     className="bd-rd16"
                     src="/assets/imgs/page/blog2/img1.png"
                     alt="iori"
-                  />
+                  /> */}
+                  <Image
+                                        className="bd-rd16"
+                                        src="/assets/imgs/page/blog2/img1.png"
+                                        alt="iori"
+                                        width={500}
+                  height={300}
+                                       layout="responsive" // This keeps the aspect ratio of the image
+                                     />
+                  
                 </div>
                 <div className="col-xl-6 col-lg-7">
                   <div className="box-business-tab">
@@ -592,11 +630,20 @@ const Tab = () => {
             <div className="box-tab-32">
               <div className="row align-items-center">
                 <div className="col-xl-6 col-lg-5">
-                  <img
+                  {/* <img
                     className="bd-rd16"
                     src="/assets/imgs/page/homepage10/img-tab.png"
                     alt="iori"
-                  />
+                  /> */}
+
+<Image
+                                        className="bd-rd16"
+                                        src="/assets/imgs/page/homepage10/img-tab.png"
+                                        alt="iori"
+                                        width={500}
+                  height={300}
+                                       layout="responsive" // This keeps the aspect ratio of the image
+                                     />
                 </div>
                 <div className="col-xl-6 col-lg-7">
                   <div className="box-business-tab">

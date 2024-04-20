@@ -3,6 +3,7 @@ import Link from "next/link";
 import Head from "next/head";
 import Layout from "../components/layout/Layout";
 import Accordion2 from "../components/elements/Accordion2";
+import Image from 'next/image';
 
 const DebtConsolidation = () => {
   return (
@@ -29,11 +30,17 @@ const DebtConsolidation = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\best-bank.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                                      className="d-block"
+                                      src="/assets/imgs/new-site/best-bank.png"
+                                      alt="iori"
+                                    layout="responsive" // This keeps the aspect ratio of the image
+                                    />
               </div>
             </div>
           </div>
@@ -55,11 +62,20 @@ const DebtConsolidation = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\get app.png"
                   alt="iori"
-                />
+                /> */}
+
+<Image
+                                     className="d-block"
+                                     src="/assets/imgs/new-site/get app.png"
+                                     alt="iori"
+                                     width={500}
+                  height={300}
+                                    layout="responsive" // This keeps the aspect ratio of the image
+                                    />
               </div>
             </div>
           </div>
@@ -83,11 +99,19 @@ const DebtConsolidation = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\best-bank.png"
                   alt="iori"
-                />
+                /> */}
+                <Image
+                                       className="d-block"
+                                       src="/assets/imgs/new-site/best-bank.png"
+                                       alt="iori"
+                                       width={500}
+                  height={300}
+                                    layout="responsive" // This keeps the aspect ratio of the image
+                                    />
               </div>
             </div>
           </div>
@@ -147,11 +171,19 @@ const DebtConsolidation = () => {
                   </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\best-bank.png"
                   alt="iori"
-                />
+                /> */}
+                  <Image
+                                       className="d-block"
+                                       src="/assets/imgs/new-site/best-bank.png"
+                                       alt="iori"
+                                       width={500}
+                  height={300}
+                                    layout="responsive" // This keeps the aspect ratio of the image
+                                    />
               </div>
             </div>
           </div>

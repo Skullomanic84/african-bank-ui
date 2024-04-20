@@ -1,6 +1,7 @@
 import React from 'react';
 import SwiperCore, { Autoplay, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from 'next/image';
 
 SwiperCore.use([Autoplay, Navigation]);
 const Offer = () => {
@@ -75,7 +76,15 @@ const Offer = () => {
                     <SwiperSlide className={`swiper-slide ${item.color}`}>
                         <div className="card-offer-style-3">
                             <div className="card-head">
-                                <div className="card-image"><img src={`assets/imgs/page/homepage1/${item.img}`} alt="iori" /></div>
+                                <div className="card-image">
+                                    {/* <img src={`assets/imgs/page/homepage1/${item.img}`} alt="iori" /> */}
+                                    <Image
+                                        src={`/assets/imgs/page/help/${item.img}`} alt="iori"
+                                            width={500}  // Specify the width of the image
+                                            height={300} // Specify the height of the image
+                                            layout="responsive" // This keeps the aspect ratio of the image
+                                    />
+                                </div>
                                 <div className="carrd-title">
                                     <h4 className="color-brand-1">{item.title}</h4>
                                 </div>

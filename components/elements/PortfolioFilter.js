@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
+import Image from 'next/image';
 
 const PortfolioFilter = ({col, show}) => {
     const portfolio = [
@@ -89,7 +90,17 @@ const PortfolioFilter = ({col, show}) => {
                                         <div className="item-content">
                                             <div className="card-style-1 hover-up mb-30" data-wow-delay=".0s">
                                                 <div className="card-image">
-                                                    <Link className="link-post" href="#"><img src={`assets/imgs/page/about/${item.img}`} alt="Genz" />
+                                                    <Link className="link-post" href="#">
+                                                        {/* <img src={`assets/imgs/page/about/${item.img}`} alt="Genz" /> */}
+                                                        <div key={item.key} style={{ width: '100%' }}> {/* Container to control the width */}
+                                                        <Image
+                                                            src={`/assets/imgs/page/about/${item.img}`}
+                                                            alt="Genz"
+                                                            width={1920}  // Example width in pixels
+                                                            height={1080} // Example height in pixels, maintain aspect ratio
+                                                            layout="responsive"
+                                                        />
+                                                        </div>
                                                         <div className="card-info card-bg-2">
                                                             <div className="info-bottom mb-15">
                                                                 <h3 className="color-white mb-10">{item.name}</h3>

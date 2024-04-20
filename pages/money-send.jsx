@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import Layout from "../components/layout/Layout";
+import Image from 'next/image';
 
 
 const MoneySend = () => {
@@ -25,11 +26,20 @@ const MoneySend = () => {
                 </p>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\best-bank.png"
                   alt="iori"
-                />
+                /> */}
+                   <Image
+                                      
+                                      className="d-block"
+                                      src="/assets/imgs/new-site/best-bank.png"
+                                      alt="iori"
+                                      width={500}
+                                      height={300}
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
               </div>
             </div>
           </div>
@@ -63,11 +73,20 @@ const MoneySend = () => {
                 </p>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\best-bank.png"
                   alt="iori"
-                />
+                /> */}
+                    <Image
+                                      
+                                      className="d-block"
+                                      src="/assets/imgs/new-site/best-bank.png"
+                                      alt="iori"
+                                      width={500}
+                                      height={300}
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
               </div>
             </div>
           </div>
@@ -110,11 +129,20 @@ const MoneySend = () => {
                 </p>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\best-bank.png"
                   alt="iori"
-                />
+                /> */}
+                 <Image
+                                      
+                                      className="d-block"
+                  src="/assets/imgs/new-site/best-bank.png"
+                  alt="iori"
+                  width={500}
+                                      height={300}
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
               </div>
             </div>
           </div>
@@ -131,22 +159,64 @@ const MoneySend = () => {
                             <div className="mt-80">
                             <ul className="list-partners">
                                 <li>
-                                    <img src="assets/imgs/page/homepage1/" alt="logo" />
+                                    {/* <img src="assets/imgs/page/homepage1/" alt="logo" /> */}
+                                    <Image
+                                      width={500}
+                                      height={300}
+                                      
+                                      src="/assets/imgs/page/homepage1/" alt="logo"
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
                                 </li>
                                 <li>
-                                    <img src="assets/imgs/page/homepage1/" alt="logo" />
+                                    {/* <img src="assets/imgs/page/homepage1/" alt="logo" /> */}
+                                    <Image
+                                      
+                                      width={500}
+                                      height={300}
+                                      src="/assets/imgs/page/homepage1/" alt="logo"
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
                                 </li>
                                 <li>
-                                    <img src="assets/imgs/page/homepage1/" alt="logo" />
+                                    {/* <img src="assets/imgs/page/homepage1/" alt="logo" /> */}
+                                    <Image
+                                      
+                                      width={500}
+                                      height={300}
+                                      src="/assets/imgs/page/homepage1/" alt="logo"
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
                                 </li>
                                 <li>
-                                    <img src="assets/imgs/page/homepage1/" alt="logo" />
+                                    {/* <img src="assets/imgs/page/homepage1/" alt="logo" /> */}
+                                    <Image
+                                      
+                                      width={500}
+                                      height={300}
+                                      src="/assets/imgs/page/homepage1/" alt="logo"
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
                                 </li>
                                 <li>
-                                    <img src="assets/imgs/page/homepage1/" alt="logo" />
+                                    {/* <img src="assets/imgs/page/homepage1/" alt="logo" /> */}
+                                    <Image
+                                      
+                                      width={500}
+                                      height={300}
+                                      src="/assets/imgs/page/homepage1/" alt="logo"
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
                                 </li>
                                 <li>
-                                    <img src="assets/imgs/page/homepage1/" alt="logo" />
+                                    {/* <img src="assets/imgs/page/homepage1/" alt="logo" /> */}
+                                    <Image
+                                      
+                                      width={500}
+                                      height={300}
+                                      src="/assets/imgs/page/homepage1/" alt="logo"
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
                                 </li>
                             </ul>
                         </div>
@@ -174,11 +244,23 @@ const MoneySend = () => {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-6 col-md-6">
-                <img
+                {/* <img
                   className="d-block"
                   src="assets\imgs\new-site\get app.png"
                   alt="iori"
-                />
+                /> */}
+
+                                    <Image
+                                      
+                                      
+                                      className="d-block"
+                                      src="/assets/imgs/new-site/get app.png"
+                                      alt="iori"
+                                      width={500}
+                                      height={300}
+                                      layout="responsive" // This keeps the aspect ratio of the image
+                                      />
+
               </div>
             </div>
           </div>
