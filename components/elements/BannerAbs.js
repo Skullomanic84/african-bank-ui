@@ -35,7 +35,8 @@ const BannerAbs = () => {
                                     width={500}
                                     height={300}
                                     layout="responsive" // This keeps the aspect ratio of the image
-                                    />
+                                    
+                        />
                       </div>
                     </div>
                   </div>

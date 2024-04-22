@@ -19,6 +19,7 @@ const Banner = () => {
         width={100} // Actual width in pixels of the source image
         height={100} // Actual height in pixels of the source image
         layout="responsive" // Image will scale with the container while maintaining this aspect ratio
+        blurDataURL="https://www.africanbank.co.za/Media/dqxpfbcm/cookies.svg"
       />
     </div>
           {/* <img className='center-banner' src="https://www.africanbank.co.za/Media/dqxpfbcm/cookies.svg"  height="25px" width="25px"></img> */}

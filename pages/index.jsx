@@ -48,6 +48,7 @@ const Home = () => {
                   width={500}
                   height={300}
                   layout="responsive"
+                  blurDataURL="/assets/imgs/new-site/loan.png"
                 />
 
               </div>
@@ -71,6 +72,7 @@ const Home = () => {
         width={500}
         height={300}
         layout="responsive"
+        blurDataURL="/assets/imgs/new-site/get a loan.png"
       />
     
                 <div className="d-none d-sm-inline-block pr-5">
@@ -191,6 +193,7 @@ const Home = () => {
         width={500}
         height={300}
         layout="responsive"
+        blurDataURL="/assets/imgs/new-site/get app.png"
       />
               </div>
             </div>
@@ -214,6 +217,7 @@ const Home = () => {
         width={500}
         height={300}
         layout="responsive"
+        blurDataURL="/assets/imgs/new-site/credit-card.png"
       />
 
       
@@ -284,6 +288,7 @@ const Home = () => {
         width={500}
         height={300}
         layout="responsive"
+        blurDataURL="/assets/imgs/new-site/retirement.png"
       />
                   
               </div>

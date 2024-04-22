@@ -37,6 +37,7 @@ const Submenu = () => {
                     width={100}
                     height={100}
                     layout="responsive"
+                 
                   />
                   <span className="btn-title">Bank</span>
                 </a>
@@ -50,6 +51,7 @@ const Submenu = () => {
                     width={100}
                     height={100}
                     layout="responsive"
+       
                   />
                   <span className="btn-title">Borrow</span>
                 </a>
@@ -62,6 +64,7 @@ const Submenu = () => {
                     width={100}
                     height={100}
                     layout="responsive"
+                 
                   />
                   <span className="btn-title">Invest</span>
                 </a>
@@ -74,6 +77,7 @@ const Submenu = () => {
                     width={100}
                     height={100}
                     layout="responsive"
+                 
                   />
                   <span className="btn-title">Insure</span>
                 </a>
@@ -86,6 +90,7 @@ const Submenu = () => {
                     width={100}
                     height={100}
                     layout="responsive"
+                   
                   />
                   <span className="btn-title">Rewards</span>
                 </a>

@@ -29,6 +29,7 @@ const HeroSlider = () => {
             nextEl: ".swiper-button-next-style-3",
           }}
           className="swiper-container"
+          
         >
           {['Slide 1', 'Slide 2', 'Slide 3', 'Slide 4'].map((slide, index) => (
             <SwiperSlide key={index} className="swiper-slide">

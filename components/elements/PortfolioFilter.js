@@ -99,6 +99,7 @@ const PortfolioFilter = ({col, show}) => {
                                                             width={1920}  // Example width in pixels
                                                             height={1080} // Example height in pixels, maintain aspect ratio
                                                             layout="responsive"
+                                                     
                                                         />
                                                         </div>
                                                         <div className="card-info card-bg-2">
