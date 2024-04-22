@@ -718,6 +718,7 @@ a:hover {
   }
 
   .desktop-logo {
+      padding-top: 10px;
     display: block !important;
   }
 
@@ -1691,10 +1692,10 @@ img .center-banner{
   box-shadow: 9px 11px 23px 0px rgba(6, 61, 79, 0.12);
 }
 
-.swiper-button-next:after,
+/* .swiper-button-next:after,
 .swiper-button-prev:after {
   content: "";
-}
+} */
 
 .swiper-button-next {
   background: url(../imgs/slider/swiper/next.svg) no-repeat 0px 0px;
@@ -1812,6 +1813,14 @@ img .center-banner{
   top: 0px;
   left: 0px;
 }
+
+.box-button {
+  display: flex;
+  flex-direction: row;  /* Adjust to row if you want horizontal alignment */
+  align-items: center;     /* Centers items horizontally in flex containers */
+  justify-content: space-between; /* Equal spacing */
+}
+
 
 .swiper-group-1 .swiper-pagination {
   bottom: 50px;
@@ -6945,12 +6954,16 @@ footer a {
   margin: 17px;
 }
 
+
+
 .btn-app img {
   display: block;
-  margin-bottom: 5px;
-  height: 49px;
-  width: 49px;
+  /* margin-bottom: 5px; */
+  height: 49px !important;
+  width: 49px !important;
 }
+
+
 
 .snicon {
   filter: invert(100%) sepia(9%) saturate(0%) hue-rotate(256deg) brightness(114%) contrast(101%);
@@ -11096,7 +11109,7 @@ footer.footer-4 {
 
   .swiper-button-next-style-2,
   .swiper-button-prev-style-2 {
-    display: block;
+    display: none;
   }
 
   h1 {
